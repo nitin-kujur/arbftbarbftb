@@ -1,83 +1,31 @@
 <?php include('header.php'); ?>
 
-<div class="jumbotron" style="padding-top: 0px; padding-bottom: 20px;">
-	<div class=""  style="position: relative;">
-		<div class="owl-carousel-hero owl-theme">
-			<div class="item" style="max-height: 500px; overflowY: hidden;">
-				<img src="images/wayne-rooney-wallpaper-14.jpg.png" class="img-responsive center-block" style="max-width:100%; height: 100%;">
-				<div class="carousel-caption bottom-right" style="left:0; right:0;">
-					<div class="container-fluid">
-						<div class="row">
-							<div class="col-xs-4">
-								<img class="img-responsive center-block w3-white w3-round" src="images/Saudi_Professional_League_Logo.png" style="width:300px; height:auto;">
-							</div>
-							<div class="col-xs-8 w3-text-shadow">
-								<h6 class="toUpper w3-xxlarge"><b>Abdul latif jameel league</b></h6>
-								<h6 class="w3-xxlarge"><b>King Fahad International Stadium</b></h6>
-								<h6 class="w3-xxlarge"><b>6TH - 10TH FEBRUARY, 2017</b></h6>
-								<button type="button" class="w3-btn w3-teal btn-xs w3-shadow-none w3-padding-4 w3-margin-right" style="width:20%;"></button>
-								<button class="w3-btn w3-round w3-card-21 w3-large w3-teal w3-text-white pull-right1 toUpper" data-toggle="modal" data-target="#signupModal" style="font-weight:bolder;">View Details</button>
-								<button type="button" class="w3-btn w3-teal btn-xs w3-shadow-none w3-padding-4 w3-margin-right" style="width:20%;"></button>
-							</div>
-						</div>
+<div class="jumbotron w3-dark-blue" style="padding-top: 0px; padding-bottom: 0px;">
+	<div class="container w3-padding-0"  style="max-height: 500px; overflowY: hidden; position: relative;">
+		<img src="images/dark-blue-bg.jpg" class="img-responsive center-block" style="max-width:100%; height: 100%;">
+		<div class="carousel-caption bottom-right" style="left:0; right:0;">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xs-4">
+						<img class="img-responsive center-block w3-white w3-round" src="images/spl_logo5.jpg" style="width:300px; height:auto;">
 					</div>
-				</div>			
+					<div class="col-xs-8 w3-text-shadow">
+						<h6 class="toUpper w3-xxlarge"><b>Abdul latif jameel league</b></h6>
+						<h6 class="w3-xxlarge"><b>King Fahad International Stadium</b></h6>
+						<h6 class="w3-xxlarge"><b>6TH - 10TH FEBRUARY, 2017</b></h6>
+						<br><br>
+						<button type="button" class="w3-btn w3-teal btn-xs w3-shadow-none w3-padding-4 w3-margin-right" style="width:20%;"></button>
+						<button class="w3-btn w3-round w3-card-21 w3-large w3-teal w3-text-white pull-right1 toUpper" data-toggle="modal" data-target="#signupModal" style="font-weight:bolder;">View Details</button>
+						<button type="button" class="w3-btn w3-teal btn-xs w3-shadow-none w3-padding-4 w3-margin-right" style="width:20%;"></button>
+					</div>
+				</div>
 			</div>
-			<div class="item" style="max-height: 500px; overflowY: hidden;">
-				<img src="images/football-field-wallpaper-4.jpg" class="img-responsive center-block" style="max-width:100%; height: 100%;">	
-				<div class="carousel-caption bottom-right" style="left:0; right:0;">
-					<div class="container-fluid">
-						<div class="row">
-							<div class="col-xs-4">
-								<img class="img-responsive center-block w3-white w3-round" src="images/Saudi_Professional_League_Logo.png" style="width:300px; height:auto;">
-							</div>
-							<div class="col-xs-8 w3-text-shadow">
-								<h6 class="toUpper w3-xxlarge"><b>Abdul latif jameel league</b></h6>
-								<h6 class="w3-xxlarge"><b>King Fahad International Stadium</b></h6>
-								<h6 class="w3-xxlarge"><b>6TH - 10TH FEBRUARY, 2017</b></h6>
-								<button type="button" class="w3-btn w3-teal btn-xs w3-shadow-none w3-padding-4 w3-margin-right" style="width:20%;"></button>
-								<button class="w3-btn w3-round w3-card-21 w3-large w3-teal w3-text-white pull-right1 toUpper" data-toggle="modal" data-target="#signupModal" style="font-weight:bolder;">View Details</button>
-								<button type="button" class="w3-btn w3-teal btn-xs w3-shadow-none w3-padding-4 w3-margin-right" style="width:20%;"></button>
-							</div>
-						</div>
-					</div>
-				</div>		
-			</div>
-			<div class="item" style="max-height: 500px; overflowY: hidden;">
-				<img src="images/vancouver-2010-winter-olympics-wallpaper-1.jpg" class="img-responsive center-block" style="max-width:100%; height: 100%;">	
-				<div class="carousel-caption bottom-right" style="left:0; right:0;">
-					<div class="container-fluid">
-						<div class="row">
-							<div class="col-xs-4">
-								<img class="img-responsive center-block w3-white w3-round" src="images/Saudi_Professional_League_Logo.png" style="width:300px; height:auto;">
-							</div>
-							<div class="col-xs-8 w3-text-shadow">
-								<h6 class="toUpper w3-xxlarge"><b>Abdul latif jameel league</b></h6>
-								<h6 class="w3-xxlarge"><b>King Fahad International Stadium</b></h6>
-								<h6 class="w3-xxlarge"><b>6TH - 10TH FEBRUARY, 2017</b></h6>
-								<button type="button" class="w3-btn w3-teal btn-xs w3-shadow-none w3-padding-4 w3-margin-right" style="width:20%;"></button>
-								<button class="w3-btn w3-round w3-card-21 w3-large w3-teal w3-text-white pull-right1 toUpper" data-toggle="modal" data-target="#signupModal" style="font-weight:bolder;">View Details</button>
-								<button type="button" class="w3-btn w3-teal btn-xs w3-shadow-none w3-padding-4 w3-margin-right" style="width:20%;"></button>
-							</div>
-						</div>
-					</div>
-				</div>		
-			</div>		
-		</div>	
-		<!-- <div class="img-overlay w3-transparent" style="z-index: 990;">
-				
-		</div> -->
-		<div class="pull-left parent" style="position: absolute; top:0px; bottom:0px; left:-5px; z-index: 997;">
-			<button type="button" class="btn btn-lg w3-text-white child w3-xxlarge prev" style="background-color: rgba(0,0,0,0.5) !important;"><i class="fa fa-angle-left"></i></button>
-		</div>
-		<div class="pull-right parent" style="position: absolute; top:0px; bottom:0px; right:44px; z-index: 999;">
-			<button type="button" class="btn btn-lg w3-text-white child w3-xxlarge next" style="background-color: rgba(0,0,0,0.5) !important;"><i class="fa fa-angle-right"></i></button>
 		</div>
 	</div>
 </div>
 
 
-<nav id="navbar3" class="navbar navbar-default w3-card-2" data-spy="affix" data-offset-top="485">
+<nav id="navbar3" class="navbar navbar-default w3-card-2" data-spy="affix" data-offset-top="430">
 	<div id="myNavbar-container3" class="container-fluid w3-padding-01">
 		<!-- <div class="navbar-header navbar-bg-color">
 		  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar3">
@@ -94,7 +42,7 @@
 	</div>
 </nav>
 
-<div id="psudo-div"></div>
+<div id="psudo-div" class="w3-light-grey"></div>
 
 <div class="tab-content" style="position:relative;">
 	<div id="leaguesSection" class="jumbotron tab-pane fade in active">
@@ -104,7 +52,7 @@
 				<div class="col-md-7">
 
 					<?php $rep = 1; $delay = 0; while ( $rep++ <= 4) { ?>
-					<div class="row w3-white border-2-lg" data-wow-duration="1s" data-wow-delay="<?php echo($delay+=0.1); ?>s">
+					<div class="row w3-white border-2-lg wow slideInUp" data-wow-duration="0.5s" data-wow-delay="<?php echo($delay+=0.05); ?>s">
 						<div class="col-xs-2 w3-light-grey right-dshd-brdr text-center">
 							<div class="container-fluid w3-padding-0">
 								<h6 class="w3-small">FEB</h6>
@@ -144,7 +92,7 @@
 										<h6class="w3-small"><b>King Fahad International Stadium</b></h6>
 									</div>
 									<div class="col-md-3 w3-padding-0 text-center">
-										<button type="button" class="w3-btn btn-danger active">Book Now</button>
+										<a href="match-detail.php"><button type="button" class="w3-btn btn-danger active">Book Now</button></a>
 										<h6 class="w3-small toUpper">SAR: 200 - 1000 </h6>
 									</div>
 								</div>
@@ -235,7 +183,7 @@
 	});
 
 	$('#navbar3').on('affixed.bs.affix', function(){
-       $('#psudo-div').css({height:'75px'});
+       $('#psudo-div').css({height:'70px'});
     });
     $('#navbar3').on('affixed-top.bs.affix', function(){
        $('#psudo-div').css({height:'0px'});

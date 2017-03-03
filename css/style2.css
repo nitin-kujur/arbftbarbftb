@@ -38,3 +38,7 @@
 .footer-menu-btn{ min-width: 150px !important; text-transform: uppercase !important; }
 #navbar2.affix, #navbar2{ width: 100% !important; }
 
+#navbar3{
+	z-index: 1000 !important;
+}
+
