@@ -10,9 +10,9 @@
 						<img class="img-responsive center-block w3-white w3-round" src="images/spl_logo5.jpg" style="width:300px; height:auto;">
 					</div>
 					<div class="col-xs-8 w3-text-shadow">
-						<h6 class="toUpper w3-xxlarge"><b>Abdul latif jameel league</b></h6>
-						<h6 class="w3-xxlarge"><b>King Fahad International Stadium</b></h6>
-						<h6 class="w3-xxlarge"><b>6TH - 10TH FEBRUARY, 2017</b></h6>
+						<h6 class="toUpper w3-xxlarge w3-bold">Abdul latif jameel league</h6>
+						<h6 class="w3-xxlarge w3-bold">King Fahad International Stadium</h6>
+						<h6 class="w3-xxlarge w3-bold">6TH - 10TH FEBRUARY, 2017</h6>
 						<br><br>
 						<button type="button" class="w3-btn w3-teal btn-xs w3-shadow-none w3-padding-4 w3-margin-right" style="width:20%;"></button>
 						<button class="w3-btn w3-round w3-card-21 w3-large w3-teal w3-text-white pull-right1 toUpper" data-toggle="modal" data-target="#signupModal" style="font-weight:bolder;">View Details</button>
@@ -25,7 +25,7 @@
 </div>
 
 
-<nav id="navbar3" class="navbar navbar-default w3-card-2" data-spy="affix" data-offset-top="430">
+<nav id="navbar3" class="navbar navbar-default w3-card-2" data-spy="affix" data-offset-top="385">
 	<div id="myNavbar-container3" class="container-fluid w3-padding-01">
 		<!-- <div class="navbar-header navbar-bg-color">
 		  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar3">
@@ -35,8 +35,8 @@
 		<div id="myNavbar3" class="collapse1 navbar-collapse1 w3-padding-0">
 			<ul id="myNavbar3-child" class="nav navbar-nav navbar-dark toUpper w3-text-gray">
 				  <li id="tab-li1"><a class="w3-transparent" href="javascript:window.history.back();"><h6 class="text-center"><span>&nbsp;&nbsp;&nbsp;</span><i class="fa fa-angle-left"></i>&nbsp;Back<span>&nbsp;&nbsp;&nbsp;</span></h6></a></li>
-				  <li id="tab-li2" class="active"><a class="w3-transparent" data-toggle="tab" href="#leaguesSection"><h6 class="text-center"><span>&nbsp;&nbsp;&nbsp;</span>Leagues<span>&nbsp;&nbsp;&nbsp;</span></h6></a></li>
-				  <li id="tab-li3"><a class="w3-transparent" data-toggle="tab" href="#venueSection"><h6 class="text-center"><span>&nbsp;&nbsp;&nbsp;</span>Venue<span>&nbsp;&nbsp;&nbsp;</span></h6></a></li>
+				  <li id="tab-li2" class="active"><a class="w3-transparent" data-toggle="tab" href="#leaguesSection"><h6 class="text-center"><span>&nbsp;&nbsp;&nbsp;</span>Week 1 League Matches<span>&nbsp;&nbsp;<i class="fa fa-angle-down"></i>&nbsp;</span></h6></a></li>
+				  <li id="tab-li3"><a class="w3-transparent" data-toggle="tab" href="#venueSection"><h6 class="text-center"><span>&nbsp;&nbsp;&nbsp;</span>Venue | Fahad<span>&nbsp;&nbsp;<i class="fa fa-angle-down"></i>&nbsp;</span></h6></a></li>
 			</ul>
 		</div>
 	</div>
@@ -49,14 +49,14 @@
 		<br>
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-7">
+				<div class="col-md-8">
 
 					<?php $rep = 1; $delay = 0; while ( $rep++ <= 4) { ?>
 					<div class="row w3-white border-2-lg wow slideInUp" data-wow-duration="0.5s" data-wow-delay="<?php echo($delay+=0.05); ?>s">
 						<div class="col-xs-2 w3-light-grey right-dshd-brdr text-center">
 							<div class="container-fluid w3-padding-0">
 								<h6 class="w3-small">FEB</h6>
-								<h6 class="w3-xxlarge"><b>23</b></h6>
+								<h6 class="w3-xxlarge w3-bold">23</h6>
 								<h6 class="toUpper w3-small">Thursday</h6><hr class="w3-margin-0 w3-border-grey">
 								<h6 class="toUpper w3-small">9:30 AM</h6>
 							</div>
@@ -66,33 +66,35 @@
 								<div class="row">
 									<div class="col-md-4 w3-padding-0">
 										<!-- <div class="container-fluid"> -->
-											<div class="row">
+											<div class="row text-center">
 												<div class="col-xs-5 w3-padding-0">
-													<img class="img-responsive w3-right w3-circle" src="images/44291x3.png" style="width:30px; height:auto;">
+													<img class="img-responsive img-circle w3-card-1 center-block" src="images/44291x3_lg.png" style="width:50px; height:auto;">
+													<h6 class="w3-small w3-text-grey w3-bold1">Al Wehda</h6>
 												</div>
 												<div class="col-xs-2 w3-padding-0">
-													<h6 class="w3-small"><b>Vs</b></h6>
+													<h6 class="w3-small w3-bold">Vs</h6>
 												</div>
 												<div class="col-xs-5 w3-padding-0">
-													<img class="img-responsive w3-left w3-circle" src="images/2000007441x3.png" style="width:30px; height:auto;">	
+													<img class="img-responsive img-circle w3-card-1 center-block" src="images/2000007441x3_lg.png" style="width:50px; height:auto;">
+													<h6 class="w3-small w3-text-grey w3-bold1">Al Faisaly</h6>
 												</div>
 											</div>
-											<div class="row text-center">
+											<!-- <div class="row text-center">
 												<div class="col-xs-6 toUpper">
 													<h6 class="w3-small w3-text-grey"><b>Al	Wehda</b></h6>
 												</div>
 												<div class="col-xs-6 toUpper">
 													<h6 class="w3-small w3-text-grey"><b>Al Faisaly</b></h6>
 												</div>
-											</div>
+											</div> -->
 										<!-- </div> -->
 									</div>
 									<div class="col-md-5 w3-padding-0">
-										<h6class="w3-small"><b>Abdul latif jameel league</b></h6>
-										<h6class="w3-small"><b>King Fahad International Stadium</b></h6>
+										<h6class="w3-small w3-bold">Abdul latif jameel league</h6>
+										<h6class="w3-small w3-bold">King Fahad International Stadium</h6>
 									</div>
 									<div class="col-md-3 w3-padding-0 text-center">
-										<a href="match-detail.php"><button type="button" class="w3-btn btn-danger active">Book Now</button></a>
+										<a href="stadium.php"><button type="button" class="w3-btn btn-danger active">Book Now</button></a>
 										<h6 class="w3-small toUpper">SAR: 200 - 1000 </h6>
 									</div>
 								</div>
@@ -101,10 +103,10 @@
 					</div><br>
 					<?php } ?>
 				</div>
-				<div class="col-md-5">
+				<div class="col-md-4">
 					<div id="wyswug-container" class="row w3-white w3-margin-bottom border-2-lg" data-spys="affix" data-offset-tops="535">
 						<div class="col-xs-12">
-							<h6 class="w3-xlarge text-center"><b>Abdul latif jameel league</b></h6>
+							<h6 class="w3-xlarge text-center w3-bold">Abdul latif jameel league</h6>
 							<div class="wyswug pre">
 								The Saudi Professional League. officially known as 
 								Jameel League named after Abdul Latif Jameel Croup 
@@ -193,7 +195,7 @@
 
 <style type="text/css">
 	/*for magicLine*/
-	#myNavbar3-child { margin: 0 auto; list-style: none !important; position: relative !important; width: 450px !important; }
+	#myNavbar3-child { margin: 0 auto; list-style: none !important; position: relative !important; width: 650px !important; }
 	#myNavbar3-child li { display: inline !important; }
 	#myNavbar3-child li a { color: ; font-size: ; display: block !important; float: left !important; padding1: 6px 10px 4px 10px; text-decoration: none; text-transform1: uppercase; }
 	#myNavbar3-child li a:hover { color: ; }

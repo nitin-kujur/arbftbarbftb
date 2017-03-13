@@ -8,20 +8,21 @@
 						
 			</div>
 			<div class="item" style="max-height: 500px; overflowY: hidden;">
-				<img src="images/football-field-wallpaper-4.jpg" class="img-responsive center-block" style="max-width:100%; height: 100%;">	
+				<img src="images/dark-blue-bg.jpg" class="img-responsive center-block" style="max-width:100%; height: 100%;">
 				<div class="carousel-caption bottom-right" style="left:0; right:0;">
 					<div class="container-fluid">
 						<div class="row">
 							<div class="col-xs-4">
-								<img class="img-responsive center-block w3-white w3-round" src="images/Saudi_Professional_League_Logo.png" style="width:300px; height:auto;">
+								<img class="img-responsive center-block w3-white w3-round" src="images/spl_logo5.jpg" style="width:300px; height:auto;">
 							</div>
 							<div class="col-xs-8 w3-text-shadow">
 								<h6 class="toUpper w3-xxlarge"><b>Abdul latif jameel league</b></h6>
 								<h6 class="w3-xxlarge"><b>King Fahad International Stadium</b></h6>
 								<h6 class="w3-xxlarge"><b>6TH - 10TH FEBRUARY, 2017</b></h6>
-								<button type="button" class="w3-btn w3-teal btn-xs w3-shadow-none w3-padding-4 w3-margin-right" style="width:20%;"></button>
-								<button class="w3-btn w3-round w3-card-21 w3-large w3-teal w3-text-white pull-right1 toUpper" data-toggle="modal" data-target="#signupModal" style="font-weight:bolder;">View Details</button>
-								<button type="button" class="w3-btn w3-teal btn-xs w3-shadow-none w3-padding-4 w3-margin-right" style="width:20%;"></button>
+								<br><br>
+								<button type="button" class="w3-btn w3-white btn-xs w3-shadow-none w3-padding-4 w3-margin-right" style="width:20%;"></button>
+								<button class="w3-btn w3-round w3-card w3-border-white w3-border w3-large w3-teal w3-text-white pull-right1 toUpper" data-toggle="modal" data-target="#signupModal" style="font-weight:bolder;">View Details</button>
+								<button type="button" class="w3-btn w3-white btn-xs w3-shadow-none w3-padding-4 w3-margin-right" style="width:20%;"></button>
 							</div>
 						</div>
 					</div>
@@ -63,9 +64,48 @@
 		<div id="myNavbar3" class="collapse1 navbar-collapse1 w3-padding-0">
 			<ul id="myNavbar3-child" class="nav navbar-nav navbar-dark toUpper w3-text-gray">
 				  <li id="tab-li1"><a class="w3-transparent" href="javascript:window.history.back();"><h6 class="text-center"><span>&nbsp;&nbsp;&nbsp;</span><i class="fa fa-angle-left"></i>&nbsp;Back<span>&nbsp;&nbsp;&nbsp;</span></h6></a></li>
-				  <li id="tab-li2" class="active"><a class="w3-transparent" data-toggle="tab" href="#leaguesSection"><h6 class="text-center"><span>&nbsp;&nbsp;&nbsp;</span>Leagues<span>&nbsp;&nbsp;&nbsp;</span></h6></a></li>
-				  <li id="tab-li3"><a class="w3-transparent" data-toggle="tab" href="#venueSection"><h6 class="text-center"><span>&nbsp;&nbsp;&nbsp;</span>Venue<span>&nbsp;&nbsp;&nbsp;</span></h6></a></li>
+				  <li id="tab-li2" class="active w3-dropdown-hover" style="position: relative;">
+				  	<a class="w3-transparent dropdown-toggle" tabindex="-1" data-toggle="dropdown" href="javascript:;"><h6 class="text-center"><span>&nbsp;&nbsp;&nbsp;</span>Pick a Date<span>&nbsp;&nbsp;<i class="fa fa-angle-down"></i>&nbsp;</span></h6></a>
+			  		<ul class="dropdown-menu text-center toUpper w3-padding w3-dropdown-content w3-white w3-card-4"> 
+	                    <li class="dropdown-header w3-col w3-center">Quick Date Selections</li>
+	                    <li class="w3-col"><a class="w3-block text-center w3-btn w3-teal w3-text-white w3-card" href="javascript:;" onclick="document.getElementById('datepicker').value = '<?php echo date('d-m-Y'); ?>';">Today (<?php echo date('d-m-Y'); ?>)</a></li>
+	                    <li class="divider"><hr></li>
+	                    <li class="w3-col"><a class="w3-block text-center w3-btn w3-teal w3-text-white w3-card" href="javascript:;" onclick="document.getElementById('datepicker').value = '<?php echo ('0'.(date('d')+1).date('-m-Y')); ?>';">Tomorrow (<?php echo ('0'.(date('d')+1).date('-m-Y')); ?>)</a></li>
+	                    <li class="divider"><hr></li>
+	                    <li class="divider"><hr></li>
+	                    <li class="divider"><hr></li>
+	                    <li><input id="datepicker" placeholder="Enter Date.." type="text" class="form-control1 w3-input w3-border w3-center" name="date"/><!-- <a href="javascript:;" onclick="">Select Date</a> --></li>
+	                </ul>
+				  </li>
+				  <li id="tab-li3" class="w3-dropdown-hover">
+				  	<a class="w3-transparent dropdown-toggle" tabindex="-1" data-toggle="dropdown" href="javascript:;"><h6 class="text-center"><span>&nbsp;&nbsp;&nbsp;</span>Filter by Price<span>&nbsp;&nbsp;<i class="fa fa-angle-down"></i>&nbsp;</span></h6></a>
+				  	<ul class="dropdown-menu text-center toUpper w3-padding w3-dropdown-content w3-white w3-card-4"> 
+	                    <!-- <li class="w3-col"><a class="w3-block text-center w3-section" href="javascript:;" onclick="document.getElementById('date').value = '<?php echo date('d/m/Y'); ?>';">Today (<?php echo date('d/m/Y'); ?>)</a></li>
+	                    <li class="divider"><hr></li>
+	                    <li class="w3-col"><a class="w3-block text-center w3-section" href="javascript:;" onclick="document.getElementById('date').value = '<?php echo ('0'.(date('d')+1).date('/m/Y')); ?>';">Tomorrow (<?php echo ('0'.(date('d')+1).date('/m/Y')); ?>)</a></li>
+	                    <li class="divider"><hr></li> -->
+	                    <li class="text-center1">
+	                    	<input id="priceRange" type="text" class="w3-section1" data-slider-tickss="[0, 100, 200, 300, 400]" data-slider-ticks-snap-boundss="30" data-slider-ticks-labelss='["$0", "$100", "$200", "$300", "$400"]'/>
+	                    </li>
+	                </ul>
+				  </li>
+				  <li id="tab-li4" class="w3-dropdown-hover">
+				  	<a class="w3-transparent dropdown-toggle" tabindex="-1" data-toggle="dropdown" href="javascript:;"><h6 class="text-center"><span>&nbsp;&nbsp;&nbsp;</span>Filter by Venue<span>&nbsp;&nbsp;<i class="fa fa-angle-down"></i>&nbsp;</span></h6></a>
+				  	<ul class="dropdown-menu text-center toUpper w3-padding w3-dropdown-content w3-white w3-card-4"> 
+				  		<li class="dropdown-header w3-col w3-center">Favourite Venues</li>
+	                    <li class="w3-col"><a class="w3-block text-center w3-btn w3-teal w3-text-white w3-card" data-venue="Behrin" href="javascript:;" onclick="document.getElementById('venue').value = this.getAttribute('data-venue');">Behrin</a></li>
+	                    <li class="divider"><hr></li>
+	                    <li class="divider"><hr></li>
+	                    <li><input id="venue" placeholder="Enter Venue.." type="text" class="form-control1 w3-input w3-border w3-center" name="venue"/><!-- <a href="javascript:;" onclick="">Select Date</a> --></li>
+	                </ul>
+				  </li>
 			</ul>
+			<div class="w3-block">
+				<h6>Filters:</h6>
+				<span class="label w3-teal w3-medium"><span id="dateFilterTag"><?php echo date('d-m-Y'); ?></span> | <i class="fa fa-times-circle w3-hover-shadow" title="Remove this" onclick=""></i></span>
+				<span class="label w3-teal w3-medium"><span id="priceFilterTag">$0, $100</span> | <i class="fa fa-times-circle w3-hover-shadow" title="Remove this" onclick=""></i></span>
+				<span class="label w3-teal w3-medium"><span id="venueFilterTag">Behrin</span> | <i class="fa fa-times-circle w3-hover-shadow" title="Remove this" onclick=""></i></span>
+			</div>
 		</div>
 	</div>
 </nav>
@@ -84,35 +124,39 @@
 						<img class="img-responsive center-block" src="images/banner_1.jpg">	
 						<div class="img-overlay w3-text-shadow">
 							<a href="league-detail.php"><button type="button" class="w3-margin-top w3-btn w3-teal toUpper">League</button></a>
-							<div class="container w3-text-white">
-								<div class="row text-center">
-									<div class="col-xs-6 toUpper">
-										<h6><b>Al	Wehda</b></h6>
-									</div>
-									<div class="col-xs-6 toUpper">
-										<h6><b>Al Faisaly</b></h6>
-									</div>
-								</div>
+							<div class="container w3-text-white text-center">
+								<h6 class="w3-bold">Abdul latif jameel league,</h6>
+								<h6 class="w3-bold">6th - 10th FEB, 2017</h6>
 								<div class="row">
-									<div class="col-xs-5">
-										<img class="img-responsive w3-right" src="images/44291x3.png" style="width:50px; height:auto;">
+									<div class="col-xs-6 toUpper">
+										<h6 class="w3-bold">Al	Wehda</h6>
 									</div>
-									<div class="col-xs-2">
-										<h6>Vs</h6>
-									</div>
-									<div class="col-xs-5">
-										<img class="img-responsive w3-left" src="images/2000007441x3.png" style="width:50px; height:auto;">	
+									<div class="col-xs-6 toUpper">
+										<h6 class="w3-bold">Al Faisaly</h6>
 									</div>
 								</div>
 							</div>
 							<div class="container-fluid w3-margin-top" style="botton:0px;">
 								<div class="row text-center w3-text-white">
-									<div class="col-xs-4 w3-border w3-border-white w3-round">
-										<h6>Feb. 04</h6>
-										<h6>2017</h6>	
+									<div class="col-xs-3 w3-border w3-border-white w3-round w3-padding-0">
+										<h6 class="w3-small">Feb. 04</h6>
+										<h6 class="w3-small">2017</h6>	
 									</div>
-									<div class="col-xs-4 col-xs-offset-4">
-										<h6>SAR.220</h6>	
+									<div class="col-xs-6 w3-padding-0">
+										<div class="row">
+											<div class="col-xs-5 w3-padding-0">
+												<img class="img-responsive w3-right" src="images/44291x3.png" style="width:30px; height:auto;">
+											</div>
+											<div class="col-xs-2 w3-padding-0">
+												<h6> Vs </h6>
+											</div>
+											<div class="col-xs-5 w3-padding-0">
+												<img class="img-responsive w3-left" src="images/2000007441x3.png" style="width:30px; height:auto;">	
+											</div>
+										</div>
+									</div>
+									<div class="col-xs-3 w3-padding-0">
+										<h6 class="w3-small">SAR.220</h6>	
 										<h6 class="w3-small">Onwards</h6>
 									</div>
 								</div>
@@ -130,8 +174,16 @@
 	</div>
 </div>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.7.2/bootstrap-slider.min.js"></script>
+
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
 <script type="text/javascript">
+	style = '<link href="css/datepicker-bootstrap.css" rel="stylesheet"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.7.2/css/bootstrap-slider.min.css" />';
+
 	$(function() {
+
+		$('head').append(style);
 
 	    var $el, leftPos, newWidth,
 	        $mainNav = $("#myNavbar3-child");
@@ -149,8 +201,10 @@
 
         initMagicLine();
 	        
-	    $("#myNavbar3-child li ").hover(function() {
+	    $("#myNavbar3-child > li ").hover(function() {
 	        $el = $(this);
+	    	if($('.dropdown-menu').filter(':visible').length > 0){ $magicLine.css({'bottom':'-6px'}); return;}
+	    	else { $magicLine.css({'bottom':'-1px'}); }
 	        leftPos = $el.position().left;
 	        newWidth = $el.width();
 	        $magicLine.stop().animate({
@@ -172,6 +226,36 @@
 	        .data("origLeft", $magicLine.position().left)
 	        .data("origWidth", $magicLine.width());
         });
+
+        $.datepicker._updateDatepicker_original = $.datepicker._updateDatepicker;
+	    $.datepicker._updateDatepicker = function(inst) {
+	        $.datepicker._updateDatepicker_original(inst);
+	        var afterShow = this._get(inst, 'afterShow');
+	        if (afterShow)
+	            afterShow.apply((inst.input ? inst.input[0] : null));  // trigger custom callback
+	    }
+
+        $('#datepicker').datepicker({
+            showAnim: "drop",
+            dateFormat: "dd-mm-yy",
+            // inline: true,
+            showOtherMonths: true,
+            numberOfMonths:[1,2],
+            afterShow: function(inst) {
+		    	$('.ui-datepicker-group').addClass('w3-half');
+		    }
+        });
+
+        $("#priceRange").bootstrapSlider({
+		    ticks: [0, 100, 200, 300, 400],
+		    ticks_labels: ['$0', '$100', '$200', '$300', '$400'],
+		    ticks_snap_bounds: 30,
+		    formatter: function(value) {
+		    	value = value.toString().replace(/,/, ', $');
+		    	return '$' + value;
+			},
+			min: 0, max: 400, range: true, value: [0, 100] 
+		});
 	});
 
 	$('#navbar3').on('affixed.bs.affix', function(){
@@ -184,16 +268,20 @@
 </script>
 
 <style type="text/css">
-	#myNavbar3-child { margin: 0 auto; list-style: none !important; position: relative !important; width: 450px !important; }
+	#myNavbar3-child { margin: 0 auto; list-style: none !important; position: relative !important; width: 750px !important; }
 	#myNavbar3-child li { display: inline !important; }
 	#myNavbar3-child li a { color: ; font-size: ; display: block !important; float: left !important; padding1: 6px 10px 4px 10px; text-decoration: none; text-transform1: uppercase; }
 	#myNavbar3-child li a:hover { color: ; }
-	#magic-line { position: absolute !important; bottom: -2px; left: 0; width: 100px; height: 5px; background: grey; }
+	#magic-line { position: absolute !important; bottom: -1px; left: 0; width: 100px; height: 6px; background: grey; }
 
 	#navbar3.affix{ 
 		position: fixed !important;
 		top: 65px !important;
 		width: 100% !important;
+	}
+
+	.ui-datepicker-group{
+		width: 50% !important;
 	}
 </style>
 

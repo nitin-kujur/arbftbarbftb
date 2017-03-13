@@ -20,9 +20,9 @@
 								<h6 class="w3-xxlarge"><b>King Fahad International Stadium</b></h6>
 								<h6 class="w3-xxlarge"><b>6TH - 10TH FEBRUARY, 2017</b></h6>
 								<br><br>
-								<button type="button" class="w3-btn w3-teal btn-xs w3-shadow-none w3-padding-4 w3-margin-right" style="width:20%;"></button>
-								<button class="w3-btn w3-round w3-card-21 w3-large w3-teal w3-text-white pull-right1 toUpper" data-toggle="modal" data-target="#signupModal" style="font-weight:bolder;">View Details</button>
-								<button type="button" class="w3-btn w3-teal btn-xs w3-shadow-none w3-padding-4 w3-margin-right" style="width:20%;"></button>
+								<button type="button" class="w3-btn no-btn w3-white btn-xs w3-shadow-none w3-padding-4 w3-margin-right" style="width:20%;"></button>
+								<button class="w3-btn w3-round w3-card w3-border-white w3-border w3-large w3-teal w3-text-white pull-right1 toUpper" data-toggle="modal" data-target="#signupModal" style="font-weight:bolder;">View Details</button>
+								<button type="button" class="w3-btn no-btn w3-white btn-xs w3-shadow-none w3-padding-4 w3-margin-left" style="width:20%;"></button>
 							</div>
 						</div>
 					</div>
@@ -49,11 +49,11 @@
 
 <div class="jumbotron" style="padding-top: 20px;">
 	<div class="container-fluid text-center">
-		<h6 class="toUpper">Upcomming Matches</h6><br>
+		<h6 class="toUpper w3-bold">Upcomming Soudi Professional League Matches</h6><br>
 		<div class="">
-			<button type="button" class="w3-btn w3-teal btn-xs w3-shadow-none w3-padding-4 w3-margin-right"></button>
-			<button type="button" class="w3-btn w3-teal btn-xs">View All</button>
-			<button type="button" class="w3-btn w3-teal btn-xs w3-shadow-none w3-padding-4 w3-margin-left"></button>
+			<button type="button" style="width:5%;" class="w3-btn no-btn w3-teal btn-xs w3-shadow-none w3-padding-4 w3-margin-right"></button>
+			<a href="league-detail.php"><button type="button" class="w3-btn w3-teal btn-xs">View All</button></a>
+			<button type="button" style="width:5%;" class="w3-btn no-btn w3-teal btn-xs w3-shadow-none w3-padding-4 w3-margin-left"></button>
 		</div>
 	</div>	
 
@@ -61,19 +61,19 @@
 		<div class="row w3-padding-0">
 
 			<?php $rep = 1; $delay = 0; while ( $rep++ <= 4) { ?>
-			<div class="col-md-3 col-sm-6 w3-margin-top w3-margin-bottom wow slideInUp" data-wow-duration="1s" data-wow-delay="<?php echo($delay+=0.1); ?>s">
-				<div class="w3-card-2">
-					<div class="" style="position: relative;">
-						<img class="img-responsive center-block" src="images/banner_1.jpg">	
+			<div class="col-md-3 col-md-4 col-sm-6 w3-margin-top w3-margin-bottom wow slideInUp" data-wow-duration="1s" data-wow-delay="<?php echo($delay+=0.1); ?>s">
+				<div class="w3-card-2 w3-teal">
+					<div class="" style="position: relative; min-width:250px;">
+						<img class="img-responsive center-block" src="images/banner_1.jpg" style="position:relative; z-index:-1;">	
 						<div class="img-overlay w3-text-shadow">
-							<a href="league-detail.php"><button type="button" class="w3-margin-top w3-btn w3-teal toUpper">League</button></a>
+							<button type="button" class="w3-margin-top w3-text-white w3-small w3-btn no-btn w3-light-green toUpper w3-bold">Thursday, 9 March</button>
 							<div class="container w3-text-white">
 								<div class="row text-center">
 									<div class="col-xs-6 toUpper">
-										<h6><b>Al	Wehda</b></h6>
+										<h6 class="w3-bold">Al Wehda</h6>
 									</div>
 									<div class="col-xs-6 toUpper">
-										<h6><b>Al Faisaly</b></h6>
+										<h6 class="w3-bold">Al Faisaly</h6>
 									</div>
 								</div>
 								<div class="row">
@@ -104,23 +104,13 @@
 					</div>
 					<div class="container-fluid w3-white w3-padding-0">
 						<div class="row w3-padding-0">
-							<div class="col-xs-8">
-								<h6>Abdul Latif Jameel</h6>	
-								<h6>League, 2017</h6>
-							</div>
-							<div class="col-xs-4 w3-padding-0 w3-padding-right">
-								<small style="white-space:nowrap;"><br>Time: 18:50 PM</small>	
+							<div class="col-xs-12 text-center">
+								<h6>Soudi Professional League</h6>
+								<small>Time: 21:20 PM</small><br>
+								<small>Venue: King Fahad International Stadium</small>
 							</div>
 						</div>
-						<div class="row w3-padding-0">
-							<div class="col-xs-8">
-								<small>Venue: King Fahad</small>
-								<small>International Stadium</small>	
-							</div>
-							<div class="col-xs-4">
-								<a href="league-detail.php"><button type="button" class="w3-btn btn-danger active pull-right">Book Now</button></a>	
-							</div>
-						</div>
+						<a href="stadium.php"><button type="button" class="w3-btn btn-danger active col-xs-12">Book Now</button></a>
 					</div>
 				</div>
 			</div>
@@ -132,25 +122,24 @@
 
 <!-- Upcomming Leagues -->
 
-<div class="jumbotron" style="padding-top: 20px;">
+<div class="jumbotron" style="padding-top: 20px; padding-bottom: 20px;">
 	<div class="container-fluid text-center">
-		<h6 class="toUpper">Upcomming Leagues</h6><br>
+		<h6 class="toUpper w3-bold">Club Matches</h6><br>
 		<div class="">
-			<button type="button" class="w3-btn w3-teal btn-xs w3-shadow-none w3-padding-4 w3-margin-right"></button>
+			<button type="button" style="width:5%;" class="w3-btn no-btn w3-teal btn-xs w3-shadow-none w3-padding-4 w3-margin-right"></button>
 			<a href="leagues.php"><button type="button" class="w3-btn w3-teal btn-xs">View All</button></a>
-			<button type="button" class="w3-btn w3-teal btn-xs w3-shadow-none w3-padding-4 w3-margin-left"></button>
+			<button type="button" style="width:5%;" class="w3-btn no-btn w3-teal btn-xs w3-shadow-none w3-padding-4 w3-margin-left"></button>
 		</div>
 	</div>	
 
 	<div class="container-fluid w3-section">
 		<div class="row w3-padding-0">
 
-			<?php $rep = 1; $delay = 0; while ( $rep++ <= 4) { ?>
-			<div class="col-md-3 col-sm-6 w3-margin-top w3-margin-bottom wow slideInUp" data-wow-duration="1s" data-wow-delay="<?php echo($delay+=0.1); ?>s">
+			<?php //$rep = 1; $delay = 0; while ( $rep++ <= 4) { ?>
+			<!-- <div class="col-md-3 col-sm-6 w3-margin-top w3-margin-bottom wow slideInUp" data-wow-duration="1s" data-wow-delay="<?php echo($delay+=0.1); ?>s">
 				<div class="w3-card-2">
 					<div class="" style="position: relative;">
 						<img class="img-responsive center-block" src="images/spl_logo4.jpg">	
-						<!-- <div class="img-overlay"></div> -->
 					</div>
 					<div class="container-fluid w3-white w3-padding-0">
 						<div class="row w3-padding-0">
@@ -161,6 +150,62 @@
 							</div>
 						</div>
 						<a href="league-detail.php"><button type="button" class="w3-btn btn-danger active col-xs-12">View All Matches</button></a>	
+					</div>
+				</div>
+			</div> -->
+			<?php //} ?>
+
+			<?php $rep = 1; $delay = 0; while ( $rep++ <= 4) { ?>
+			<div class="col-md-3 col-md-4 col-sm-6 w3-margin-top w3-margin-bottom wow slideInUp" data-wow-duration="1s" data-wow-delay="<?php echo($delay+=0.1); ?>s">
+				<div class="w3-card-2 w3-teal">
+					<div class="" style="position: relative; min-width:250px;">
+						<img class="img-responsive center-block" src="images/banner_1.jpg" style="position:relative; z-index:-1;">	
+						<div class="img-overlay w3-text-shadow">
+							<button type="button" class="w3-margin-top w3-text-white w3-small w3-btn no-btn w3-light-green toUpper w3-bold">Thursday, 9 March</button>
+							<div class="container w3-text-white">
+								<div class="row text-center">
+									<div class="col-xs-6 toUpper">
+										<h6 class="w3-bold">Al Wehda</h6>
+									</div>
+									<div class="col-xs-6 toUpper">
+										<h6 class="w3-bold">Al Faisaly</h6>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xs-5">
+										<img class="img-responsive w3-right" src="images/44291x3.png" style="width:50px; height:auto;">
+									</div>
+									<div class="col-xs-2">
+										<h6>Vs</h6>
+									</div>
+									<div class="col-xs-5">
+										<img class="img-responsive w3-left" src="images/2000007441x3.png" style="width:50px; height:auto;">	
+									</div>
+								</div>
+							</div>
+							<div class="container-fluid w3-margin-top" style="botton:0px;">
+								<div class="row text-center w3-text-white">
+									<div class="col-xs-4 w3-border w3-border-white w3-round">
+										<h6>Feb. 04</h6>
+										<h6>2017</h6>	
+									</div>
+									<div class="col-xs-4 col-xs-offset-4">
+										<h6>SAR.220</h6>	
+										<h6 class="w3-small">Onwards</h6>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="container-fluid w3-white w3-padding-0">
+						<div class="row w3-padding-0">
+							<div class="col-xs-12 text-center">
+								<h6>Soudi Professional League</h6>
+								<small>Time: 21:20 PM</small><br>
+								<small>Venue: King Fahad International Stadium</small>
+							</div>
+						</div>
+						<a href="stadium.php"><button type="button" class="w3-btn btn-danger active col-xs-12">Book Now</button></a>
 					</div>
 				</div>
 			</div>

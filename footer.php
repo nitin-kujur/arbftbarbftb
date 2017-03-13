@@ -1,4 +1,4 @@
-		<div class="jumbotron w3-white">
+		<div class="jumbotron w3-white" style="padding-top: 20px; padding-bottom: 20px;">
 			<img class="img-responsive center-block" style="width:100%;" src="images/flick-click2.png">
 		</div>
 
@@ -78,7 +78,7 @@
 		<script type="text/javascript">
 			// media query event handler
 			  if (matchMedia) {
-			    var mq = window.matchMedia("(min-width: 766px)");
+			    var mq = window.matchMedia("(min-width: 1366px)");
 			    mq.addListener(WidthChange);
 			    WidthChange(mq);
 			  }
@@ -86,11 +86,14 @@
 			  // media query change
 			  function WidthChange(mq) {
 			    if (mq.matches) {
-			      // window width is at least 766px
+			      // window width is at least 1366px
 			      // $('#navbar').removeClass('navbar-fixed-top');
+			      $('.force-lg-width').removeClass('lg-width');
 			    } else {
-			      // window width is less than 766px
+			      // window width is less than 1366px
 			      // $('#navbar').addClass('navbar-fixed-top');
+			      $('.force-lg-width').addClass('lg-width');
+			      $('.force-lg-width').scrollLeft(1366);
 			    }
 
 			  }
@@ -131,11 +134,11 @@
 
 				// $('.nav').affix({offset: {top: 150} });
 				$('#navbar2').on('affixed.bs.affix', function(){
-			        $('#myNavbar-container').removeClass('animated fadeInDown').addClass('animated fadeOutUp').slideUp();
+			        $('#myNavbar-container').removeClass('animated fadeInDown').addClass('animated fadeOutUp').slideUp(0);
 			        $('#navbar').removeClass('w3-card-2 navbar-bg-color');
 			    });
 			    $('#navbar2').on('affixed-top.bs.affix', function(){
-			        $('#myNavbar-container').removeClass('animated fadeOutUp').addClass('animated fadeInDown').slideDown();
+			        $('#myNavbar-container').removeClass('animated fadeOutUp').addClass('animated fadeInDown').slideDown(0);
 					$('#navbar').addClass('w3-card-2 navbar-bg-color');
 			    });
 

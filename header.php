@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html>
+<html manifest="ftb_html.appcache">
 	<head>
 		<title>FootBall Ticket Booking | Arebia</title>
 		<meta charset="utf-8">
@@ -44,17 +44,29 @@
 								<h6 class="w3-margin-0 w3-text-white"><i class="fa fa-bars" style="font-size:15px"></i></h6>
 						  </button>
 						</div>
-						<div class="collapse navbar-collapse w3-padding-0" id="myNavbar">
-							<ul class="nav navbar-nav navbar-dark toUpper">
-							  <li id="li1" class="w3-dark-grey"><a class="w3-transparent" href="index.php"><h6 class="text-center w3-text-white"><i class="fa fa-home" style="height: 20px;"></i></h6></a></li>
-					   		  <li id="li2"><a class="w3-transparent" href="about.php"><span class="text-center w3-text-green">Sports</span></a></li>
-					   		  <li id="li3"><a class="w3-transparent" href="clubs.php"><span class="text-center w3-text-white">Cinemas</span></a></li>
-					   		  <li id="li4"><a class="w3-transparent" href="players.php"><span class="text-center w3-text-white">Parking</span></a></li>
-					   		  <li id="li5"><a class="w3-transparent" href="services.php"><span class="text-center w3-text-white">Metro</span></a></li>
-					   		  <li id="li6"><a class="w3-transparent" href="shop.php"><span class="text-center w3-text-white">Notification</span></a></li>
-					   		  <li id="li7"><a class="w3-transparent" href="contact.php"><span class="text-center w3-text-white">My Tickets</span></a></li>
+						<div class="collapse navbar-collapse w3-padding-0 navbar-bg-color" id="myNavbar">
+							<ul class="nav navbar-nav toUpper">
+							  <li id="li1" class="w3-dark-grey text-center"><a class="w3-transparent" href="index.php"><h6 class="text-center w3-text-white hidden-sm hidden-xs"><i class="fa fa-home" style="height: 20px;"></i></h6><span class="visible-sm visible-xs">&nbsp;<i class="fa fa-home" style="height: 20px;"></i>&nbsp;</span></a></li>
+					   		  <li id="li2" class="text-center"><a class="w3-transparent" href="about.php"><span class="w3-text-green">Sports</span></a></li>
+					   		  <li id="li3" class="text-center"><a class="w3-transparent" href="clubs.php"><span class="w3-text-white">Cinemas</span></a></li>
+					   		  <li id="li4" class="text-center"><a class="w3-transparent" href="players.php"><span class="w3-text-white">Parking</span></a></li>
+					   		  <li id="li5" class="text-center"><a class="w3-transparent" href="services.php"><span class="w3-text-white">Metro</span></a></li>
+					   		  <li id="li6" class="text-center"><a class="w3-transparent" href="shop.php"><span class="w3-text-white">Notification</span></a></li>
+					   		  <li id="li7" class="text-center"><a class="w3-transparent" href="contact.php"><span class="w3-text-white">My Tickets</span></a></li>
+
+					   		  <li class="visible-sm visible-xs text-center" style="background-color: transparent !important;">
+					   		  <!-- <div class="fa-container center-block text-center w3-white"><a class="w3-transparent" href=""><i class="fa ficon fa-facebook"></i></a></div>
+							  <div class="w3-text-white w3-large w3-transparent" style="margin-top: 4px; background-color: transparent !important;">&nbsp;|&nbsp;</div>
+							  <div class="fa-container center-block text-center w3-white"><a class="w3-transparent" href=""><i class="fa ficon fa-twitter"></i></a></div> -->
+							  <div class="w3-text-white">
+							  	<button type="button" class="w3-btn-floating w3-small w3-circle w3-white w3-border w3-border-white"><i class="fa ficon fa-facebook w3-padding-bottom w3-xlarge"></i></button>
+							  	<span class="w3-text-white w3-large w3-transparent" style="margin-top: 4px; background-color: transparent !important;">&nbsp;|&nbsp;</span>
+							  	<button type="button" class="w3-btn-floating w3-small w3-circle w3-white w3-border w3-border-white"><i class="fa ficon fa-twitter w3-padding-bottom w3-xlarge"></i></button>
+							  </div>
+						      </li>
+
 							</ul>
-							<ul class="nav navbar-nav navbar-right w3-margin-right w3-padding-right" style="">
+							<ul class="nav navbar-nav navbar-right w3-margin-right w3-padding-right hidden-sm hidden-xs" style="">
 					   		  	<li style="background-color: transparent !important;"><div class="fa-container center-block text-center w3-white"><a class="w3-transparent" href=""><i class="fa ficon fa-facebook"></i></a></div></li>
 					   		  	<li class="w3-text-white w3-large w3-transparent" style="margin-top: 4px; background-color: transparent !important;">&nbsp;|&nbsp;</li>
 								<li style="background-color: transparent !important;"><div class="fa-container center-block text-center w3-white w3-left"><a class="w3-transparent" href=""><i class="fa ficon fa-twitter"></i></a></div></li>
