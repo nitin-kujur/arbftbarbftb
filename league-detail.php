@@ -140,6 +140,10 @@
 	</div>
 </div>
 
+<div class="jumbotron w3-white" style="padding-top: 20px; padding-bottom: 20px;">
+	<img class="img-responsive center-block" style="width:100%;" src="images/flick-click2.png">
+</div>
+
 <script type="text/javascript">
 	$(function() {
 

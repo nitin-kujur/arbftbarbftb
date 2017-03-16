@@ -174,6 +174,11 @@
 	</div>
 </div>
 
+
+<div class="jumbotron w3-white" style="padding-top: 20px; padding-bottom: 20px;">
+	<img class="img-responsive center-block" style="width:100%;" src="images/flick-click2.png">
+</div>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.7.2/bootstrap-slider.min.js"></script>
 
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>

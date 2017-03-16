@@ -1,6 +1,3 @@
-		<div class="jumbotron w3-white" style="padding-top: 20px; padding-bottom: 20px;">
-			<img class="img-responsive center-block" style="width:100%;" src="images/flick-click2.png">
-		</div>
 
 		<div class="jumbotron w3-padding-0 w3-grey2" style="padding-top: 20px !important;">
 			<div class="container-fluid w3-padding-0">
