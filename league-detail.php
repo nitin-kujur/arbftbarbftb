@@ -15,7 +15,7 @@
 						<h6 class="w3-xxlarge w3-bold">6TH - 10TH FEBRUARY, 2017</h6>
 						<br><br>
 						<button type="button" class="w3-btn w3-teal btn-xs w3-shadow-none w3-padding-4 w3-margin-right" style="width:20%;"></button>
-						<button class="w3-btn w3-round w3-card-21 w3-large w3-teal w3-text-white pull-right1 toUpper" data-toggle="modal" data-target="#signupModal" style="font-weight:bolder;">View Details</button>
+						<button class="w3-btn w3-round w3-card-21 w3-large w3-teal w3-text-white pull-right1 toUpper" style="font-weight:bolder;">View Details</button>
 						<button type="button" class="w3-btn w3-teal btn-xs w3-shadow-none w3-padding-4 w3-margin-right" style="width:20%;"></button>
 					</div>
 				</div>

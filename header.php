@@ -48,11 +48,12 @@
 							<ul class="nav navbar-nav toUpper">
 							  <li id="li1" class="w3-dark-grey text-center"><a class="w3-transparent" href="index.php"><h6 class="text-center w3-text-white hidden-sm hidden-xs"><i class="fa fa-home" style="height: 20px;"></i></h6><span class="visible-sm visible-xs">&nbsp;<i class="fa fa-home" style="height: 20px;"></i>&nbsp;</span></a></li>
 					   		  <li id="li2" class="text-center"><a class="w3-transparent" href="about.php"><span class="w3-text-green">Sports</span></a></li>
-					   		  <li id="li3" class="text-center"><a class="w3-transparent" href="clubs.php"><span class="w3-text-white">Cinemas</span></a></li>
-					   		  <li id="li4" class="text-center"><a class="w3-transparent" href="players.php"><span class="w3-text-white">Parking</span></a></li>
-					   		  <li id="li5" class="text-center"><a class="w3-transparent" href="services.php"><span class="w3-text-white">Metro</span></a></li>
-					   		  <li id="li6" class="text-center"><a class="w3-transparent" href="shop.php"><span class="w3-text-white">Notification</span></a></li>
-					   		  <li id="li7" class="text-center"><a class="w3-transparent" href="contact.php"><span class="w3-text-white">My Tickets</span></a></li>
+					   		  <li id="li3" class="text-center"><a class="w3-transparent" hrefs="clubs.php"><span class="w3-text-white">Cinemas</span></a></li>
+					   		  <li id="li4" class="text-center"><a class="w3-transparent" hrefs="players.php"><span class="w3-text-white">Parking</span></a></li>
+					   		  <li id="li5" class="text-center"><a class="w3-transparent" hrefs="services.php"><span class="w3-text-white">Metro</span></a></li>
+					   		  <li id="li6" class="text-center"><a class="w3-transparent" hrefs="shop.php"><span class="w3-text-white">Notification</span></a></li>
+					   		  <li id="li7" class="text-center"><a class="w3-transparent" hrefs="contact.php"><span class="w3-text-white">My Tickets</span></a></li>
+					   		  <li id="li7" class="text-center"><a class="w3-transparent" href="partner-contact-us.php"><span class="w3-text-white">Partners</span></a></li>
 
 					   		  <li class="visible-sm visible-xs text-center" style="background-color: transparent !important;">
 					   		  <!-- <div class="fa-container center-block text-center w3-white"><a class="w3-transparent" href=""><i class="fa ficon fa-facebook"></i></a></div>

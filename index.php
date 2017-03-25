@@ -21,7 +21,7 @@
 								<h6 class="w3-xxlarge"><b>6TH - 10TH FEBRUARY, 2017</b></h6>
 								<br><br>
 								<button type="button" class="w3-btn no-btn w3-white btn-xs w3-shadow-none w3-padding-4 w3-margin-right" style="width:20%;"></button>
-								<button class="w3-btn w3-round w3-card w3-border-white w3-border w3-large w3-teal w3-text-white pull-right1 toUpper" data-toggle="modal" data-target="#signupModal" style="font-weight:bolder;">View Details</button>
+								<button class="w3-btn w3-round w3-card w3-border-white w3-border w3-large w3-teal w3-text-white pull-right1 toUpper" style="font-weight:bolder;">View Details</button>
 								<button type="button" class="w3-btn no-btn w3-white btn-xs w3-shadow-none w3-padding-4 w3-margin-left" style="width:20%;"></button>
 							</div>
 						</div>
@@ -136,7 +136,7 @@
 		<div class="row w3-padding-0">
 
 			<?php //$rep = 1; $delay = 0; while ( $rep++ <= 4) { ?>
-			<!-- <div class="col-md-3 col-sm-6 w3-margin-top w3-margin-bottom wow slideInUp" data-wow-duration="1s" data-wow-delay="<?php echo($delay+=0.1); ?>s">
+			<!-- <div class="col-md-3 col-sm-6 w3-margin-top w3-margin-bottom wow slideInUp" data-wow-duration="1s" data-wow-delay="<?php //echo($delay+=0.1); ?>s">
 				<div class="w3-card-2">
 					<div class="" style="position: relative;">
 						<img class="img-responsive center-block" src="images/spl_logo4.jpg">	

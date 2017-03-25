@@ -15,7 +15,7 @@
 						<h6 class="w3-xxlarge"><b>6TH - 10TH FEBRUARY, 2017</b></h6>
 						<br><br>
 						<button type="button" class="w3-btn no-btn w3-white btn-xs w3-shadow-none w3-padding-4 w3-margin-right" style="width:20%;"></button>
-						<button class="w3-btn w3-round w3-card w3-border-white w3-border w3-large w3-teal w3-text-white pull-right1 toUpper" data-toggle="modal" data-target="#signupModal" style="font-weight:bolder;">View Details</button>
+						<button class="w3-btn w3-round w3-card w3-border-white w3-border w3-large w3-teal w3-text-white pull-right1 toUpper" style="font-weight:bolder;">View Details</button>
 						<button type="button" class="w3-btn no-btn w3-white btn-xs w3-shadow-none w3-padding-4 w3-margin-left" style="width:20%;"></button>
 					</div>
 				</div>
@@ -28,7 +28,7 @@
 <div class="">
 	<div class="jumbotron">
 		<div class="container">
-			<div class="jumbotron w3-grey" style="overflow-x:scroll !important;">
+			<div class="jumbotron w3-grey" style="overflow-x: auto !important;">
 				<div class="container-fluid w3-padding-0 force-lg-width">
 					<div class="row">
 						<div class="row-height">
@@ -84,7 +84,7 @@
 										</div>
 									</div>
 									<div class="container-fluid w3-center w3-section1">
-										<a href="#" class="w3-btn w3-blue w3-text-white toUpper w3-small">Proceed for Payment</a><small><br></small>
+										<a href="signup.php" class="w3-btn w3-blue w3-text-white toUpper w3-small">Proceed for Payment</a><small><br></small>
 										<a href="javascript:window.history.back();" class="w3-text-red w3-small"><i class="fa fa-times-circle"></i> Cancel Transaction</a>
 									</div>
 								</div>
