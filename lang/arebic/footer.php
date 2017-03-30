@@ -150,9 +150,9 @@
 				var text = obj.options[index].innerHTML;
 				$('#selected-action').html('<i class="fa fa-th-large"></i>&nbsp;&nbsp;&nbsp;'+text+'&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-down"></i>');
 				switch(index){
-					case 0: $('#search-box').attr('placeholder', 'Search by League or Venue or Team'); break;
-					case 1: $('#search-box').attr('placeholder', 'Search by League'); break;
-					case 2: $('#search-box').attr('placeholder', 'Search by Venue'); break;
+					case 0: $('#search-box').attr('placeholder', 'Search by دوري or المكان or Team'); break;
+					case 1: $('#search-box').attr('placeholder', 'Search by دوري'); break;
+					case 2: $('#search-box').attr('placeholder', 'Search by المكان'); break;
 					case 3: $('#search-box').attr('placeholder', 'Search by Team'); break;
 				}
 				

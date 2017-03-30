@@ -99,12 +99,12 @@
 				                        </ul>
 						  				<select id="header-select" class="form-control selectpicker1" onchange="selectResponse(this);" data-style="btn-lg w3-blue w3-border-blue w3-text-white" style="display:none;">
 								  			<option value="ALL" selected>ALL</option>
-								  			<option value="LEAGUE">LEAGUE</option>
-								  			<option value="VENUE">VENUE</option>
+								  			<option value="LEAGUE">دوري</option>
+								  			<option value="VENUE">المكان</option>
 								  			<option value="TEAM">TEAM</option>
 								  		</select>
 						  			</span>
-							  		<input id="search-box" class="form-control input-lg w3-border-white" placeholder="Search by League or Venue or Team" type="text">
+							  		<input id="search-box" class="form-control input-lg w3-border-white" placeholder="Search by دوري or المكان or Team" type="text">
 						  			<span class="input-group-btn">
 						  				<button type="submit" class="btn w3-white w3-text-grey btn-lg" onclick="document.getElementById('search-box').focus();" style="border-radius: 0px;">&nbsp;<i class="fa fa-list-ul"></i></button>	
 						  			</span>
