@@ -21,7 +21,7 @@
 								<h6 class="w3-xxlarge"><b>6TH - 10TH FEBRUARY, 2017</b></h6>
 								<br><br>
 								<button type="button" class="w3-btn no-btn w3-white btn-xs w3-shadow-none w3-padding-4 w3-margin-right" style="width:20%;"></button>
-								<button class="w3-btn w3-round w3-card w3-border-white w3-border w3-large w3-teal w3-text-white pull-right1 toUpper" style="font-weight:bolder;">View Details</button>
+								<button class="w3-btn w3-round w3-card w3-border-white w3-border w3-large w3-teal w3-text-white pull-right1 toUpper" style="font-weight:bolder;">عرض التفاصيل</button>
 								<button type="button" class="w3-btn no-btn w3-white btn-xs w3-shadow-none w3-padding-4 w3-margin-left" style="width:20%;"></button>
 							</div>
 						</div>
@@ -52,7 +52,7 @@
 		<h6 class="toUpper w3-bold">Upcomming Soudi Professional دوري Matches</h6><br>
 		<div class="">
 			<button type="button" style="width:5%;" class="w3-btn no-btn w3-teal btn-xs w3-shadow-none w3-padding-4 w3-margin-right"></button>
-			<a href="دوري-detail.php"><button type="button" class="w3-btn w3-teal btn-xs">View All</button></a>
+			<a href="league-detail.php"><button type="button" class="w3-btn w3-teal btn-xs">عرض الكل</button></a>
 			<button type="button" style="width:5%;" class="w3-btn no-btn w3-teal btn-xs w3-shadow-none w3-padding-4 w3-margin-left"></button>
 		</div>
 	</div>	
@@ -127,7 +127,7 @@
 		<h6 class="toUpper w3-bold">الاندية الرياضية</h6><br>
 		<div class="">
 			<button type="button" style="width:5%;" class="w3-btn no-btn w3-teal btn-xs w3-shadow-none w3-padding-4 w3-margin-right"></button>
-			<a href="leagues.php"><button type="button" class="w3-btn w3-teal btn-xs">View All</button></a>
+			<a href="leagues.php"><button type="button" class="w3-btn w3-teal btn-xs">عرض الكل</button></a>
 			<button type="button" style="width:5%;" class="w3-btn no-btn w3-teal btn-xs w3-shadow-none w3-padding-4 w3-margin-left"></button>
 		</div>
 	</div>	

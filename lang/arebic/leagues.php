@@ -16,12 +16,12 @@
 								<img class="img-responsive center-block w3-white w3-round" src="images/spl_logo5.jpg" style="width:300px; height:auto;">
 							</div>
 							<div class="col-xs-8 w3-text-shadow">
-								<h6 class="toUpper w3-xxlarge"><b>Abdul latif jameel league</b></h6>
+								<h6 class="toUpper w3-xxlarge"><b>Abdul latif jameel دوري</b></h6>
 								<h6 class="w3-xxlarge"><b>King Fahad International Stadium</b></h6>
-								<h6 class="w3-xxlarge"><b>6TH - 10TH FEBRUARY, 2017</b></h6>
+								<h6 class="w3-xxlarge"><b>6TH - 10TH شهر فبراير, 2017</b></h6>
 								<br><br>
 								<button type="button" class="w3-btn w3-white btn-xs w3-shadow-none w3-padding-4 w3-margin-right" style="width:20%;"></button>
-								<button class="w3-btn w3-round w3-card w3-border-white w3-border w3-large w3-teal w3-text-white pull-right1 toUpper" style="font-weight:bolder;">View Details</button>
+								<button class="w3-btn w3-round w3-card w3-border-white w3-border w3-large w3-teal w3-text-white pull-right1 toUpper" style="font-weight:bolder;">عرض التفاصيل</button>
 								<button type="button" class="w3-btn w3-white btn-xs w3-shadow-none w3-padding-4 w3-margin-right" style="width:20%;"></button>
 							</div>
 						</div>
@@ -47,10 +47,10 @@
 
 <div class="jumbotron">
 	<div class="container text-center">
-		<button type="button" class="w3-btn w3-white w3-padding-large toUpper w3-card-1">Sports</button><br><br>
+		<button type="button" class="w3-btn w3-white w3-padding-large toUpper w3-card-1">رياضة</button><br><br>
 		<button type="button" class="w3-btn w3-round w3-section w3-card-1 w3-margin w3-grey w3-text-white toUpper" style="min-width: 250px;">All</button>
-		<button type="button" class="w3-btn w3-round w3-section w3-card-1 w3-margin w3-light-grey toUpper" style="min-width: 250px;">Leagues</button>
-		<button type="button" class="w3-btn w3-round w3-section w3-card-1 w3-margin w3-light-grey toUpper" style="min-width: 250px;">Matches</button>
+		<button type="button" class="w3-btn w3-round w3-section w3-card-1 w3-margin w3-light-grey toUpper" style="min-width: 250px;">دوري</button>
+		<button type="button" class="w3-btn w3-round w3-section w3-card-1 w3-margin w3-light-grey toUpper" style="min-width: 250px;">المباريات</button>
 	</div>
 </div>
 
@@ -63,7 +63,7 @@
 		</div>
 		<div id="myNavbar3" class="collapse1 navbar-collapse1 w3-padding-0">
 			<ul id="myNavbar3-child" class="nav navbar-nav navbar-dark toUpper w3-text-gray">
-				  <li id="tab-li1"><a class="w3-transparent" href="javascript:window.history.back();"><h6 class="text-center"><span>&nbsp;&nbsp;&nbsp;</span><i class="fa fa-angle-left"></i>&nbsp;Back<span>&nbsp;&nbsp;&nbsp;</span></h6></a></li>
+				  <li id="tab-li1"><a class="w3-transparent" href="javascript:window.history.back();"><h6 class="text-center"><span>&nbsp;&nbsp;&nbsp;</span><i class="fa fa-angle-left"></i>&nbsp;الى الخلف<span>&nbsp;&nbsp;&nbsp;</span></h6></a></li>
 				  <li id="tab-li2" class="active w3-dropdown-hover" style="position: relative;">
 				  	<a class="w3-transparent dropdown-toggle" tabindex="-1" data-toggle="dropdown" href="javascript:;"><h6 class="text-center"><span>&nbsp;&nbsp;&nbsp;</span>اختيار التاريخ<span>&nbsp;&nbsp;<i class="fa fa-angle-down"></i>&nbsp;</span></h6></a>
 			  		<ul class="dropdown-menu text-center toUpper w3-padding w3-dropdown-content w3-white w3-card-4"> 
@@ -123,9 +123,9 @@
 					<div class="" style="position: relative;">
 						<img class="img-responsive center-block" src="images/banner_1.jpg">	
 						<div class="img-overlay w3-text-shadow">
-							<a href="league-detail.php"><button type="button" class="w3-margin-top w3-btn w3-teal toUpper">League</button></a>
+							<a href="league-detail.php"><button type="button" class="w3-margin-top w3-btn w3-teal toUpper">دوري</button></a>
 							<div class="container w3-text-white text-center">
-								<h6 class="w3-bold">Abdul latif jameel league,</h6>
+								<h6 class="w3-bold">Abdul latif jameel دوري,</h6>
 								<h6 class="w3-bold">6th - 10th FEB, 2017</h6>
 								<div class="row">
 									<div class="col-xs-6 toUpper">
@@ -164,7 +164,7 @@
 						</div>
 					</div>
 					<div class="container-fluid w3-white w3-padding-0">
-						<a href="league-detail.php"><button type="button" class="w3-btn btn-danger active col-xs-12">View All Matches</button></a>
+						<a href="league-detail.php"><button type="button" class="w3-btn btn-danger active col-xs-12">View All المباريات</button></a>
 					</div>
 				</div>
 			</div>

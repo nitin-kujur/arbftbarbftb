@@ -10,7 +10,7 @@
 						<img class="img-responsive center-block w3-white w3-round" src="images/spl_logo5.jpg" style="width:300px; height:auto;">
 					</div>
 					<div class="col-xs-8 w3-text-shadow">
-						<h6 class="toUpper w3-xxlarge w3-bold">Abdul latif jameel league</h6>
+						<h6 class="toUpper w3-xxlarge w3-bold">Abdul latif jameel دوري</h6>
 						<h6 class="w3-xxlarge w3-bold">King Fahad International Stadium</h6>
 						<h6 class="w3-xxlarge w3-bold">6TH - 10TH FEBRUARY, 2017</h6>
 						<br><br>
@@ -34,9 +34,9 @@
 		</div> -->
 		<div id="myNavbar3" class="collapse1 navbar-collapse1 w3-padding-0">
 			<ul id="myNavbar3-child" class="nav navbar-nav navbar-dark toUpper w3-text-gray">
-				  <li id="tab-li1"><a class="w3-transparent" href="javascript:window.history.back();"><h6 class="text-center"><span>&nbsp;&nbsp;&nbsp;</span><i class="fa fa-angle-left"></i>&nbsp;Back<span>&nbsp;&nbsp;&nbsp;</span></h6></a></li>
-				  <li id="tab-li2" class="active"><a class="w3-transparent" data-toggle="tab" href="#leaguesSection"><h6 class="text-center"><span>&nbsp;&nbsp;&nbsp;</span>Week 1 League Matches<span>&nbsp;&nbsp;<i class="fa fa-angle-down"></i>&nbsp;</span></h6></a></li>
-				  <li id="tab-li3"><a class="w3-transparent" data-toggle="tab" href="#venueSection"><h6 class="text-center"><span>&nbsp;&nbsp;&nbsp;</span>Venue | Fahad<span>&nbsp;&nbsp;<i class="fa fa-angle-down"></i>&nbsp;</span></h6></a></li>
+				  <li id="tab-li1"><a class="w3-transparent" href="javascript:window.history.back();"><h6 class="text-center"><span>&nbsp;&nbsp;&nbsp;</span><i class="fa fa-angle-left"></i>&nbsp;الى الخلف<span>&nbsp;&nbsp;&nbsp;</span></h6></a></li>
+				  <li id="tab-li2" class="active"><a class="w3-transparent" data-toggle="tab" href="#leaguesSection"><h6 class="text-center"><span>&nbsp;&nbsp;&nbsp;</span>Week 1 دوري المباريات<span>&nbsp;&nbsp;<i class="fa fa-angle-down"></i>&nbsp;</span></h6></a></li>
+				  <li id="tab-li3"><a class="w3-transparent" data-toggle="tab" href="#venueSection"><h6 class="text-center"><span>&nbsp;&nbsp;&nbsp;</span>المكان | Fahad<span>&nbsp;&nbsp;<i class="fa fa-angle-down"></i>&nbsp;</span></h6></a></li>
 			</ul>
 		</div>
 	</div>
@@ -85,7 +85,7 @@
 											<h6class="w3-small w3-bold">King Fahad International Stadium</h6>
 										</div>
 										<div class="col-md-3 w3-padding-0 text-center">
-											<a href="stadium.php"><button type="button" class="w3-btn btn-danger active">Book Now</button></a>
+											<a href="stadium.php"><button type="button" class="w3-btn btn-danger active">أشتري الان </button></a>
 											<h6 class="w3-small toUpper">SAR: 200 - 1000 </h6>
 										</div>
 									</div>
@@ -98,7 +98,7 @@
 				<div class="col-md-4">
 					<div id="wyswug-container" class="row w3-white w3-margin-bottom border-2-lg" data-spys="affix" data-offset-tops="535">
 						<div class="col-xs-12">
-							<h6 class="w3-xlarge text-center w3-bold">Abdul latif jameel league</h6>
+							<h6 class="w3-xlarge text-center w3-bold">Abdul latif jameel دوري</h6>
 							<div class="wyswug pre">
 								The Saudi Professional League. officially known as 
 								Jameel League named after Abdul Latif Jameel Croup 
@@ -122,7 +122,7 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-7">
-					venue
+					المكان
 				</div>
 				<div class="col-md-5">
 				

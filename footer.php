@@ -131,11 +131,11 @@
 
 				// $('.nav').affix({offset: {top: 150} });
 				$('#navbar2').on('affixed.bs.affix', function(){
-			        $('#myNavbar-container').removeClass('animated fadeInDown').addClass('animated fadeOutUp').slideUp(0);
+			        $('#myNavbar-container').removeClass('animated fadeIn').addClass('animated fadeOutUp').slideUp(0);
 			        $('#navbar').removeClass('w3-card-2 navbar-bg-color');
 			    });
 			    $('#navbar2').on('affixed-top.bs.affix', function(){
-			        $('#myNavbar-container').removeClass('animated fadeOutUp').addClass('animated fadeInDown').slideDown(0);
+			        $('#myNavbar-container').removeClass('animated fadeOutUp').addClass('animated fadeIn').slideDown(0);
 					$('#navbar').addClass('w3-card-2 navbar-bg-color');
 			    });
 
