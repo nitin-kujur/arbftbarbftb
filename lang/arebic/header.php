@@ -53,7 +53,7 @@
 					   		  <li id="li5" class="text-center"><a class="w3-transparent" hrefs="services.php"><span class="w3-text-white">ميترو</span></a></li>
 					   		  <li id="li6" class="text-center"><a class="w3-transparent" hrefs="shop.php"><span class="w3-text-white">الاشعارات</span></a></li>
 					   		  <li id="li7" class="text-center"><a class="w3-transparent" hrefs="contact.php"><span class="w3-text-white">تذاكري</span></a></li>
-					   		  <li id="li7" class="text-center"><a class="w3-transparent" href="partner-contact-us.html"><span class="w3-text-white">Partners</span></a></li>
+					   		  <li id="li7" class="text-center"><a class="w3-transparent" href="http://kinniweb.in/Arabicftb/arabftb.herokuapp.com/partner-contact-us.html"><span class="w3-text-white">Partners</span></a></li>
 
 					   		  <li class="visible-sm visible-xs text-center" style="background-color: transparent !important;">
 					   		  <!-- <div class="fa-container center-block text-center w3-white"><a class="w3-transparent" href=""><i class="fa ficon fa-facebook"></i></a></div>
