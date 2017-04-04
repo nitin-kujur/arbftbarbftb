@@ -1,3 +1,10 @@
+@font-face {
+      font-family: 'Montserrat';
+      src: url('../fonts/Montserrat-Arabic-Regular.ttf') format("truetype");
+      font-weight: bold;
+/*       font-style: ExtraBold; */
+}
+
 /*---------------home style start------------------------*/
 h1, h2, h3, h4, h5, h6, label, li, p, a, input, button, select, span{
 	font-family: 'Montserrat' !important;

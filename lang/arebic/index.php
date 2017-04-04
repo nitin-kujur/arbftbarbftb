@@ -90,11 +90,11 @@
 							</div>
 							<div class="container-fluid w3-margin-top" style="botton:0px;">
 								<div class="row text-center w3-text-white">
-									<div class="col-xs-4 w3-border w3-border-white w3-round">
+									<div class="col-xs-5 w3-border w3-border-white w3-round">
 										<h6>Feb. 04</h6>
 										<h6>2017</h6>	
 									</div>
-									<div class="col-xs-4 col-xs-offset-4">
+									<div class="col-xs-4 col-xs-offset-3">
 										<h6>SAR.220</h6>	
 										<h6 class="w3-small">Onwards</h6>
 									</div>
