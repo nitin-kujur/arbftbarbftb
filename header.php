@@ -44,40 +44,42 @@
 								<h6 class="w3-margin-0 w3-text-white"><i class="fa fa-bars" style="font-size:15px"></i></h6>
 						  </button>
 						</div>
-						<div class="collapse navbar-collapse w3-padding-0 navbar-bg-color" id="myNavbar">
-							<ul class="nav navbar-nav toUpper">
-							  <li id="li1" class="w3-dark-grey text-center"><a class="w3-transparent" href="index.php"><h6 class="text-center w3-text-white hidden-sm hidden-xs"><i class="fa fa-home" style="height: 20px;"></i></h6><span class="visible-sm visible-xs">&nbsp;<i class="fa fa-home" style="height: 20px;"></i>&nbsp;</span></a></li>
-					   		  <li id="li2" class="text-center"><a class="w3-transparent" href="about.php"><span class="w3-text-green">Sports</span></a></li>
-					   		  <li id="li3" class="text-center"><a class="w3-transparent" hrefs="clubs.php"><span class="w3-text-white">Cinemas</span></a></li>
-					   		  <li id="li4" class="text-center"><a class="w3-transparent" hrefs="players.php"><span class="w3-text-white">Parking</span></a></li>
-					   		  <li id="li5" class="text-center"><a class="w3-transparent" hrefs="services.php"><span class="w3-text-white">Metro</span></a></li>
-					   		  <li id="li6" class="text-center"><a class="w3-transparent" hrefs="shop.php"><span class="w3-text-white">Notification</span></a></li>
-					   		  <li id="li7" class="text-center"><a class="w3-transparent" hrefs="contact.php"><span class="w3-text-white">My Tickets</span></a></li>
-					   		  <li id="li7" class="text-center"><a class="w3-transparent" href="partner-contact-us.php"><span class="w3-text-white">Partners</span></a></li>
+						<div id="navbar-container1">
+							<div class="collapse navbar-collapse w3-padding-0 navbar-bg-color" id="myNavbar">
+								<ul class="nav navbar-nav toUpper">
+								  <li id="li1" class="w3-dark-grey text-center"><a class="w3-transparent" href="index.php"><h6 class="text-center w3-text-white hidden-sm hidden-xs"><i class="fa fa-home" style="height: 20px;"></i></h6><span class="visible-sm visible-xs">&nbsp;<i class="fa fa-home" style="height: 20px;"></i>&nbsp;</span></a></li>
+						   		  <li id="li2" class="text-center"><a class="w3-transparent" href="about.php"><span class="w3-text-green">Sports</span></a></li>
+						   		  <li id="li3" class="text-center"><a class="w3-transparent" hrefs="clubs.php"><span class="w3-text-white">Cinemas</span></a></li>
+						   		  <li id="li4" class="text-center"><a class="w3-transparent" hrefs="players.php"><span class="w3-text-white">Parking</span></a></li>
+						   		  <li id="li5" class="text-center"><a class="w3-transparent" hrefs="services.php"><span class="w3-text-white">Metro</span></a></li>
+						   		  <li id="li6" class="text-center"><a class="w3-transparent" hrefs="shop.php"><span class="w3-text-white">Notification</span></a></li>
+						   		  <li id="li7" class="text-center"><a class="w3-transparent" hrefs="contact.php"><span class="w3-text-white">My Tickets</span></a></li>
+						   		  <li id="li7" class="text-center"><a class="w3-transparent" href="partner-contact-us.php"><span class="w3-text-white">Partners</span></a></li>
 
-					   		  <li class="visible-sm visible-xs text-center" style="background-color: transparent !important;">
-					   		  <!-- <div class="fa-container center-block text-center w3-white"><a class="w3-transparent" href=""><i class="fa ficon fa-facebook"></i></a></div>
-							  <div class="w3-text-white w3-large w3-transparent" style="margin-top: 4px; background-color: transparent !important;">&nbsp;|&nbsp;</div>
-							  <div class="fa-container center-block text-center w3-white"><a class="w3-transparent" href=""><i class="fa ficon fa-twitter"></i></a></div> -->
-							  <div class="w3-text-white">
-							  	<button type="button" class="w3-btn-floating w3-small w3-circle w3-white w3-border w3-border-white"><i class="fa ficon fa-facebook w3-padding-bottom w3-xlarge"></i></button>
-							  	<span class="w3-text-white w3-large w3-transparent" style="margin-top: 4px; background-color: transparent !important;">&nbsp;|&nbsp;</span>
-							  	<button type="button" class="w3-btn-floating w3-small w3-circle w3-white w3-border w3-border-white"><i class="fa ficon fa-twitter w3-padding-bottom w3-xlarge"></i></button>
-							  </div>
-						      </li>
+						   		  <li class="visible-sm visible-xs text-center" style="background-color: transparent !important;">
+						   		  <!-- <div class="fa-container center-block text-center w3-white"><a class="w3-transparent" href=""><i class="fa ficon fa-facebook"></i></a></div>
+								  <div class="w3-text-white w3-large w3-transparent" style="margin-top: 4px; background-color: transparent !important;">&nbsp;|&nbsp;</div>
+								  <div class="fa-container center-block text-center w3-white"><a class="w3-transparent" href=""><i class="fa ficon fa-twitter"></i></a></div> -->
+								  <div class="w3-text-white">
+								  	<button type="button" class="w3-btn-floating w3-small w3-circle w3-white w3-border w3-border-white"><i class="fa ficon fa-facebook w3-padding-bottom w3-xlarge"></i></button>
+								  	<span class="w3-text-white w3-large w3-transparent" style="margin-top: 4px; background-color: transparent !important;">&nbsp;|&nbsp;</span>
+								  	<button type="button" class="w3-btn-floating w3-small w3-circle w3-white w3-border w3-border-white"><i class="fa ficon fa-twitter w3-padding-bottom w3-xlarge"></i></button>
+								  </div>
+							      </li>
 
-							</ul>
-							<ul class="nav navbar-nav navbar-right w3-margin-right w3-padding-right hidden-sm hidden-xs" style="">
-					   		  	<li style="background-color: transparent !important;"><div class="fa-container center-block text-center w3-white"><a class="w3-transparent" href=""><i class="fa ficon fa-facebook"></i></a></div></li>
-					   		  	<li class="w3-text-white w3-large w3-transparent" style="margin-top: 4px; background-color: transparent !important;">&nbsp;|&nbsp;</li>
-								<li style="background-color: transparent !important;"><div class="fa-container center-block text-center w3-white w3-left"><a class="w3-transparent" href=""><i class="fa ficon fa-twitter"></i></a></div></li>
-					   		</ul>
+								</ul>
+								<ul class="nav navbar-nav navbar-right w3-margin-right w3-padding-right hidden-sm hidden-xs" style="">
+						   		  	<li style="background-color: transparent !important;"><div class="fa-container center-block text-center w3-white"><a class="w3-transparent" href=""><i class="fa ficon fa-facebook"></i></a></div></li>
+						   		  	<li class="w3-text-white w3-large w3-transparent" style="margin-top: 4px; background-color: transparent !important;">&nbsp;|&nbsp;</li>
+									<li style="background-color: transparent !important;"><div class="fa-container center-block text-center w3-white w3-left"><a class="w3-transparent" href=""><i class="fa ficon fa-twitter"></i></a></div></li>
+						   		</ul>
+							</div>
 						</div>
 					  </div>
 					  <div id="navbar2" class="container-fluid w3-text-white w3-padding" style="background-color:rgba(0,0,0,0.5);" data-spy="affix" data-offset-top="28">
 					  	<div class="container-fluid text-center">
 					  		<a class="navbar-brand" href="index.php">
-								<img src="images/logo2.png" class="img-responsive"  alt="p" width="130px" height="40%" style="object-fit: contain;">
+								<img src="images/logo2.png" class="img-responsive navbar-brand-img"  alt="p" width="120px" heights="40%" style="object-fit: contain; vertical-align:middle; position:relative; bottom:7px;">
 							</a>
 			  				<div class="center-block" style="max-width: 600px;">
 			  					<div class="input-group input-group-lg input-grp1 w3-card-4 bounceIn">
@@ -110,7 +112,17 @@
 						  			</span>
 							  	</div>	
 			  				</div>
+			  				
 					  	</div>
+					  	<div id="ham2" class="pull-right" style="position:relative; display:;">
+						  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" style="position:absolute; right:-30px; bottom:10px;">
+								<h6 class="w3-margin-0 w3-text-white"><i class="fa fa-bars" style="font-size:15px"></i></h6>
+						  </button>
+						</div>
+						
+					  </div>
+					  <div id="navbar-container2" class="navbar-bg-color">
+
 					  </div>
 					</nav>
 				</div>

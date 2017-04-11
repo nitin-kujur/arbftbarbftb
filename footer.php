@@ -94,6 +94,35 @@
 			    }
 
 			  }
+
+			  // media query event handler
+			  if (matchMedia) {
+			    var mq4nav = window.matchMedia("(min-width: 768px)");
+			    mq4nav.addListener(WidthChange4nav);
+			    WidthChange4nav(mq4nav);
+			  }
+
+			  // media query change
+			  function WidthChange4nav(mq) {
+			    if (mq.matches) {
+			      // window width is at least 768px
+			      if($('#navbar-container2 #myNavbar').length > 0){
+			      	navHtml = $('#navbar-container2').html();
+			      	$('#navbar-container2').html('');
+			      	// document.getElementById('navbar-container2').innerHTML = '';
+			      	$('#navbar-container1').html('').append(navHtml);
+			      }
+			    } else {
+			      // window width is less than 768px
+			      if($('#navbar-container1 #myNavbar').length > 0){
+			      	navHtml = $('#navbar-container1').html();
+			      	$('#navbar-container1').html('');
+			      	// document.getElementById('navbar-container1').innerHTML = '';
+			      	$('#navbar-container2').html('').append(navHtml);
+			      }
+			    }
+
+			  }
 			$(document).ready(function() {
 				// $.blockUI({ 
 		  //           message: '<img src="loader.gif">', 
@@ -133,10 +162,14 @@
 				$('#navbar2').on('affixed.bs.affix', function(){
 			        $('#myNavbar-container').removeClass('animated fadeIn').addClass('animated fadeOutUp').slideUp(0);
 			        $('#navbar').removeClass('w3-card-2 navbar-bg-color');
+					$('#navbar-container2').addClass('margin-top60');
+					$('#ham2').removeClass('animated fadeOut').addClass('animated fadeIn');
 			    });
 			    $('#navbar2').on('affixed-top.bs.affix', function(){
 			        $('#myNavbar-container').removeClass('animated fadeOutUp').addClass('animated fadeIn').slideDown(0);
 					$('#navbar').addClass('w3-card-2 navbar-bg-color');
+					$('#navbar-container2').removeClass('margin-top60');
+					$('#ham2').removeClass('animated fadeIn').addClass('animated fadeOut');
 			    });
 
 			});
