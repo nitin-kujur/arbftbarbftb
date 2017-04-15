@@ -47,7 +47,7 @@
 
 <div class="jumbotron">
 	<div class="container text-center">
-		<button type="button" class="w3-btn w3-white w3-padding-large toUpper w3-card-1">Sports</button><br><br>
+		<button type="button" class="w3-btn w3-white w3-padding-large toUpper no-btn w3-card-1">Sports</button><br><br>
 		<button type="button" class="w3-btn w3-round w3-section w3-card-1 w3-margin w3-grey w3-text-white toUpper" style="min-width: 250px;">All</button>
 		<button type="button" class="w3-btn w3-round w3-section w3-card-1 w3-margin w3-light-grey toUpper" style="min-width: 250px;">Leagues</button>
 		<button type="button" class="w3-btn w3-round w3-section w3-card-1 w3-margin w3-light-grey toUpper" style="min-width: 250px;">Matches</button>

@@ -1,6 +1,6 @@
 <?php include('header.php'); ?>
 
-<div class="jumbotron" style="padding-top: 0px; padding-bottom: 20px;">
+<div class="jumbotron" style="padding-top: 40px; padding-bottom: 20px;">
 	<div class=""  style="position: relative;">
 		<div class="owl-carousel-hero owl-theme">
 			<div class="item" style="max-height: 500px; overflowY: hidden;">
@@ -9,7 +9,7 @@
 			</div>
 			<div class="item" style="max-height: 500px; overflowY: hidden;">
 				<img src="images/football-field-wallpaper-4.jpg" class="img-responsive center-block" style="max-width:100%; height: 100%;">	
-				<div class="carousel-caption bottom-right" style="left:0; right:0; bottom:50px;">
+				<div class="carousel-caption bottom-right" style="left:0; right:0; bottom:5%;">
 					<div class="container-fluid">
 						<div class="row">
 							<div class="col-xs-4">
@@ -19,10 +19,10 @@
 								<h6 class="toUpper w3-xxlarge"><b>Abdul latif jameel league</b></h6>
 								<h6 class="w3-xxlarge"><b>King Fahad International Stadium</b></h6>
 								<h6 class="w3-xxlarge"><b>6TH - 10TH FEBRUARY, 2017</b></h6>
-								<br><br>
-								<button type="button" class="w3-btn no-btn w3-white btn-xs w3-shadow-none w3-padding-4 w3-margin-right" style="width:20%;"></button>
+								<span class="hidden-sm hidden-xs"><br><br></span>
+								<button type="button" class="w3-btn no-btn w3-white btn-xs w3-shadow-none w3-padding-4 w3-margin-right hidden-sm hidden-xs" style="width:20%;"></button>
 								<button class="w3-btn w3-round w3-card w3-border-white w3-border w3-large w3-teal w3-text-white pull-right1 toUpper" style="font-weight:bolder;">View Details</button>
-								<button type="button" class="w3-btn no-btn w3-white btn-xs w3-shadow-none w3-padding-4 w3-margin-left" style="width:20%;"></button>
+								<button type="button" class="w3-btn no-btn w3-white btn-xs w3-shadow-none w3-padding-4 w3-margin-left hidden-sm hidden-xs" style="width:20%;"></button>
 							</div>
 						</div>
 					</div>

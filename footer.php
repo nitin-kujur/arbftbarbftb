@@ -5,14 +5,17 @@
 					<div class="col-md-4 w3-hover-shadow">
 						<img class="img-responsive center-block" style="width:90px;" src="images/CC.png">
 						<h6 class="w3-small">24/7 Customer Care</h6>			
+						<small><br></small>
 					</div>
 					<div class="col-md-4 w3-hover-shadow">
 						<img class="img-responsive center-block" style="width:90px;" src="images/RBC.png">
-						<h6 class="w3-small">Resend Booking Confirmation</h6>			
+						<h6 class="w3-small">Resend Booking Confirmation</h6>		
+						<small><br></small>
 					</div>
 					<div class="col-md-4 w3-hover-shadow">
 						<img class="img-responsive center-block" style="width:90px;" src="images/STN.png">
 						<h6 class="w3-small">Subscribe to Newsletter</h6>			
+						<small><br></small>
 					</div>		
 				</div>	
 			</div>
@@ -111,6 +114,9 @@
 			      	$('#navbar-container2').html('');
 			      	// document.getElementById('navbar-container2').innerHTML = '';
 			      	$('#navbar-container1').html('').append(navHtml);
+
+			      	$('.w3-xxlarge1').addClass('w3-xxlarge').removeClass('w3-xxlarge1 w3-large');
+			      	$('button.w3-large1').addClass('w3-large').removeClass('w3-large1 w3-small');
 			      }
 			    } else {
 			      // window width is less than 768px
@@ -119,6 +125,9 @@
 			      	$('#navbar-container1').html('');
 			      	// document.getElementById('navbar-container1').innerHTML = '';
 			      	$('#navbar-container2').html('').append(navHtml);
+
+			      	$('.w3-xxlarge').addClass('w3-xxlarge1 w3-large').removeClass('w3-xxlarge');
+			      	$('button.w3-large').addClass('w3-large1 w3-small').removeClass('w3-large');
 			      }
 			    }
 
@@ -148,7 +157,22 @@
 				    margin: 0,
 				    stagePadding: 60,
 				    dots: true,
-				    startPosition: 1
+				    startPosition: 1,
+				    responsiveClass:true,
+				    responsive:{
+				        0:{
+				           stagePadding: 0
+				            
+				        },
+				        600:{
+				           stagePadding: 30
+				            
+				        },
+				        1000:{
+				           stagePadding: 60
+
+				        }
+				    }
 		  		});
 
 				$(".next").click(function(){
@@ -170,6 +194,16 @@
 					$('#navbar').addClass('w3-card-2 navbar-bg-color');
 					$('#navbar-container2').removeClass('margin-top60');
 					$('#ham2').removeClass('animated fadeIn').addClass('animated fadeOut');
+			    });
+
+			    $('#navbar').on('mouseover', function() { 
+			    	if($('#navbar2').hasClass('affix') && $('#myNavbar-container').hasClass('fadeOutUp'))
+			    	$('#myNavbar-container').removeClass('animated fadeOutUp').addClass('animated fadeIn').slideDown(0);
+			    });
+
+			    $('#navbar').on('mouseleave', function() { 
+			    	if($('#navbar2').hasClass('affix') && $('#myNavbar-container').hasClass('fadeIn'))
+			    	$('#myNavbar-container').removeClass('animated fadeIn').addClass('animated fadeOutUp').slideUp(0);
 			    });
 
 			});

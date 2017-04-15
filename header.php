@@ -37,6 +37,7 @@
 					<nav id="navbar" class="navbar navbar-dark navbar-bg-color navbar-fixed-top w3-card-2">
 					  <div id="myNavbar-container" class="container-fluid w3-padding-0">
 						<div class="navbar-header navbar-bg-color">
+						  <img src="images/logo2.png" class="img-responsive navbar-brand-img visible-sm visible-xs w3-left"  alt="p" width="80px" heights="40%" style="object-fit: contain; vertical-align:middle; position:relative; left:20px;">
 						  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 								<!-- <h6><span class="icon-bar"></span>
 								<span class="icon-bar"></span>
@@ -61,9 +62,9 @@
 								  <div class="w3-text-white w3-large w3-transparent" style="margin-top: 4px; background-color: transparent !important;">&nbsp;|&nbsp;</div>
 								  <div class="fa-container center-block text-center w3-white"><a class="w3-transparent" href=""><i class="fa ficon fa-twitter"></i></a></div> -->
 								  <div class="w3-text-white">
-								  	<button type="button" class="w3-btn-floating w3-small w3-circle w3-white w3-border w3-border-white"><i class="fa ficon fa-facebook w3-padding-bottom w3-xlarge"></i></button>
+								  	<button type="button" class="w3-btn-floating w3-small w3-circle w3-white w3-border w3-border-white"><i class="fa ficon1 fa-facebook w3-padding-bottom w3-xlarge"></i></button>
 								  	<span class="w3-text-white w3-large w3-transparent" style="margin-top: 4px; background-color: transparent !important;">&nbsp;|&nbsp;</span>
-								  	<button type="button" class="w3-btn-floating w3-small w3-circle w3-white w3-border w3-border-white"><i class="fa ficon fa-twitter w3-padding-bottom w3-xlarge"></i></button>
+								  	<button type="button" class="w3-btn-floating w3-small w3-circle w3-white w3-border w3-border-white"><i class="fa ficon1 fa-twitter w3-padding-bottom w3-xlarge"></i></button>
 								  </div>
 							      </li>
 
@@ -78,7 +79,7 @@
 					  </div>
 					  <div id="navbar2" class="container-fluid w3-text-white w3-padding" style="background-color:rgba(0,0,0,0.5);" data-spy="affix" data-offset-top="28">
 					  	<div class="container-fluid text-center">
-					  		<a class="navbar-brand" href="index.php">
+					  		<a class="navbar-brand hidden-sm hidden-xs" href="index.php">
 								<img src="images/logo2.png" class="img-responsive navbar-brand-img"  alt="p" width="120px" heights="40%" style="object-fit: contain; vertical-align:middle; position:relative; bottom:7px;">
 							</a>
 			  				<div class="center-block" style="max-width: 600px;">
@@ -114,7 +115,7 @@
 			  				</div>
 			  				
 					  	</div>
-					  	<div id="ham2" class="pull-right" style="position:relative; display:;">
+					  	<div id="ham2" class="pull-right" style="position:relative; display:block;">
 						  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" style="position:absolute; right:-30px; bottom:10px;">
 								<h6 class="w3-margin-0 w3-text-white"><i class="fa fa-bars" style="font-size:15px"></i></h6>
 						  </button>
