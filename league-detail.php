@@ -35,8 +35,30 @@
 		<div id="myNavbar3" class="collapse1 navbar-collapse1 w3-padding-0">
 			<ul id="myNavbar3-child" class="nav navbar-nav navbar-dark toUpper w3-text-gray">
 				  <li id="tab-li1"><a class="w3-transparent" href="javascript:window.history.back();"><h6 class="text-center"><span>&nbsp;&nbsp;&nbsp;</span><i class="fa fa-angle-left"></i>&nbsp;Back<span>&nbsp;&nbsp;&nbsp;</span></h6></a></li>
-				  <li id="tab-li2" class="active"><a class="w3-transparent" data-toggle="tab" href="#leaguesSection"><h6 class="text-center"><span>&nbsp;&nbsp;&nbsp;</span>Week 1 League Matches<span>&nbsp;&nbsp;<i class="fa fa-angle-down"></i>&nbsp;</span></h6></a></li>
-				  <li id="tab-li3"><a class="w3-transparent" data-toggle="tab" href="#venueSection"><h6 class="text-center"><span>&nbsp;&nbsp;&nbsp;</span>Venue | Fahad<span>&nbsp;&nbsp;<i class="fa fa-angle-down"></i>&nbsp;</span></h6></a></li>
+				  <li id="tab-li2" class="active w3-dropdown-hover">
+				  	<a class="w3-transparent dropdown-toggle" tabindex="-1" data-toggle="dropdown" href="javascript:;"><h6 class="text-center"><span>&nbsp;&nbsp;&nbsp;</span>Week 1 League Matches<span>&nbsp;&nbsp;<i class="fa fa-angle-down"></i>&nbsp;</span></h6></a>
+				  	<!-- <a class="w3-transparent dropdown-toggle" tabindex="-1" data-toggle="dropdown" href="javascript:;"><h6 class="text-center"><span>&nbsp;&nbsp;&nbsp;</span>Filter by Venue<span>&nbsp;&nbsp;<i class="fa fa-angle-down"></i>&nbsp;</span></h6></a> -->
+				  	<ul class="dropdown-menu text-center toUpper w3-padding w3-dropdown-content w3-white w3-card-4" style="top:95%; width:100%;"> 
+				  		<li class="dropdown-header w3-col w3-center">League Weeks</li>
+				  		<?php $rep = 0; while ( $rep++ <= 8) { ?>
+	                    <li class="divider"><hr></li>
+	                    <li class="w3-col"><a class="w3-block text-center w3-btn w3-teal w3-text-white w3-card" data-week="week-<?php echo($rep); ?>" href="javascript:;" onclick="document.getElementById('week').value = this.getAttribute('data-week');">Week <?php echo($rep); ?></a></li>
+	                    <li class="divider"><hr></li>
+	                    <?php } ?>
+	                    <input id="week" type="hidden" class="form-control1 w3-input w3-border w3-center" name="week"/>
+	                </ul>
+				  </li>
+				  <li id="tab-li3" class="w3-dropdown-hover">
+				  	<a class="w3-transparent dropdown-toggle" tabindex="-1" data-toggle="dropdown" href="javascript:;"><h6 class="text-center"><span>&nbsp;&nbsp;&nbsp;</span>Venue | Fahad<span>&nbsp;&nbsp;<i class="fa fa-angle-down"></i>&nbsp;</span></h6></a>
+				  	<!-- <a class="w3-transparent dropdown-toggle" tabindex="-1" data-toggle="dropdown" href="javascript:;"><h6 class="text-center"><span>&nbsp;&nbsp;&nbsp;</span>Filter by Venue<span>&nbsp;&nbsp;<i class="fa fa-angle-down"></i>&nbsp;</span></h6></a> -->
+				  	<ul class="dropdown-menu text-center toUpper w3-padding w3-dropdown-content w3-white w3-card-4" style="top:95%;"> 
+				  		<li class="dropdown-header w3-col w3-center">Favourite Venues</li>
+	                    <li class="w3-col"><a class="w3-block text-center w3-btn w3-teal w3-text-white w3-card" data-venue="Behrin" href="javascript:;" onclick="document.getElementById('venue').value = this.getAttribute('data-venue');">Behrin</a></li>
+	                    <li class="divider"><hr></li>
+	                    <li class="divider"><hr></li>
+	                    <li><input id="venue" placeholder="Enter Venue.." type="text" class="form-control1 w3-input w3-border w3-center" name="venue"/><!-- <a href="javascript:;" onclick="">Select Date</a> --></li>
+	                </ul>
+				  </li>
 			</ul>
 		</div>
 	</div>
@@ -65,26 +87,28 @@
 							<div class="col-xs-10 w3-padding-0 middle-container col-height">
 								<div class="container-fluid w3-padding-0 vertical-center1 middle-y">
 									<div class="row">
-										<div class="col-md-4 w3-padding-0">
-											<div class="row text-center">
-												<div class="col-xs-5 w3-padding-0">
-													<img class="img-responsive img-circle w3-card-1 center-block" src="images/44291x3_lg.png" style="width:50px; height:auto;">
-													<h6 class="w3-small w3-text-grey w3-bold1">Al Wehda</h6>
-												</div>
-												<div class="col-xs-2 w3-padding-0">
-													<h6 class="w3-small w3-bold">Vs</h6>
-												</div>
-												<div class="col-xs-5 w3-padding-0">
-													<img class="img-responsive img-circle w3-card-1 center-block" src="images/2000007441x3_lg.png" style="width:50px; height:auto;">
-													<h6 class="w3-small w3-text-grey w3-bold1">Al Faisaly</h6>
+										<div class="col-sm-9 w3-padding-0">
+											<div class="col-md-5 w3-padding-0">
+												<div class="row text-center">
+													<div class="col-xs-5 w3-padding-0">
+														<img class="img-responsive img-circle w3-card-1 center-block" src="images/44291x3_lg.png" style="width:50px; height:auto;">
+														<h6 class="w3-small w3-text-grey w3-bold1">Al Wehda</h6>
+													</div>
+													<div class="col-xs-2 w3-padding-0">
+														<h6 class="w3-small w3-bold">Vs</h6>
+													</div>
+													<div class="col-xs-5 w3-padding-0">
+														<img class="img-responsive img-circle w3-card-1 center-block" src="images/2000007441x3_lg.png" style="width:50px; height:auto;">
+														<h6 class="w3-small w3-text-grey w3-bold1">Al Faisaly</h6>
+													</div>
 												</div>
 											</div>
+											<div class="col-md-7 w3-padding-0 text-center">
+												<h6class="w3-small w3-bold">Abdul latif jameel league</h6>
+												<h6class="w3-small w3-bold">King Fahad International Stadium</h6>
+											</div>
 										</div>
-										<div class="col-md-5 w3-padding-0">
-											<h6class="w3-small w3-bold">Abdul latif jameel league</h6>
-											<h6class="w3-small w3-bold">King Fahad International Stadium</h6>
-										</div>
-										<div class="col-md-3 w3-padding-0 text-center">
+										<div class="col-sm-3 w3-padding-0 text-center">
 											<a href="stadium.php"><button type="button" class="w3-btn btn-danger active">Book Now</button></a>
 											<h6 class="w3-small toUpper">SAR: 200 - 1000 </h6>
 										</div>
@@ -118,7 +142,7 @@
 		</div>
 	</div>
 
-	<div id="venueSection" class="jumbotron tab-pane fade">
+	<!-- <div id="venueSection" class="jumbotron tab-pane fade">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-7">
@@ -129,7 +153,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 </div>
 
 <div class="jumbotron w3-white" style="padding-top: 20px; padding-bottom: 20px;">

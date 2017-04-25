@@ -66,7 +66,7 @@
 				  <li id="tab-li1"><a class="w3-transparent" href="javascript:window.history.back();"><h6 class="text-center"><span>&nbsp;&nbsp;&nbsp;</span><i class="fa fa-angle-left"></i>&nbsp;Back<span>&nbsp;&nbsp;&nbsp;</span></h6></a></li>
 				  <li id="tab-li2" class="active w3-dropdown-hover" style="position: relative;">
 				  	<a class="w3-transparent dropdown-toggle" tabindex="-1" data-toggle="dropdown" href="javascript:;"><h6 class="text-center"><span>&nbsp;&nbsp;&nbsp;</span>Pick a Date<span>&nbsp;&nbsp;<i class="fa fa-angle-down"></i>&nbsp;</span></h6></a>
-			  		<ul class="dropdown-menu text-center toUpper w3-padding w3-dropdown-content w3-white w3-card-4"> 
+			  		<ul class="dropdown-menu text-center toUpper w3-padding w3-dropdown-content w3-white w3-card-4" style="top:93%;"> 
 	                    <li class="dropdown-header w3-col w3-center">Quick Date Selections</li>
 	                    <li class="w3-col"><a class="w3-block text-center w3-btn w3-teal w3-text-white w3-card" href="javascript:;" onclick="document.getElementById('datepicker').value = '<?php echo date('d-m-Y'); ?>';">Today (<?php echo date('d-m-Y'); ?>)</a></li>
 	                    <li class="divider"><hr></li>
@@ -79,7 +79,7 @@
 				  </li>
 				  <li id="tab-li3" class="w3-dropdown-hover">
 				  	<a class="w3-transparent dropdown-toggle" tabindex="-1" data-toggle="dropdown" href="javascript:;"><h6 class="text-center"><span>&nbsp;&nbsp;&nbsp;</span>Filter by Price<span>&nbsp;&nbsp;<i class="fa fa-angle-down"></i>&nbsp;</span></h6></a>
-				  	<ul class="dropdown-menu text-center toUpper w3-padding w3-dropdown-content w3-white w3-card-4"> 
+				  	<ul class="dropdown-menu text-center toUpper w3-padding w3-dropdown-content w3-white w3-card-4" style="top:93%;"> 
 	                    <!-- <li class="w3-col"><a class="w3-block text-center w3-section" href="javascript:;" onclick="document.getElementById('date').value = '<?php echo date('d/m/Y'); ?>';">Today (<?php echo date('d/m/Y'); ?>)</a></li>
 	                    <li class="divider"><hr></li>
 	                    <li class="w3-col"><a class="w3-block text-center w3-section" href="javascript:;" onclick="document.getElementById('date').value = '<?php echo ('0'.(date('d')+1).date('/m/Y')); ?>';">Tomorrow (<?php echo ('0'.(date('d')+1).date('/m/Y')); ?>)</a></li>
@@ -91,7 +91,7 @@
 				  </li>
 				  <li id="tab-li4" class="w3-dropdown-hover">
 				  	<a class="w3-transparent dropdown-toggle" tabindex="-1" data-toggle="dropdown" href="javascript:;"><h6 class="text-center"><span>&nbsp;&nbsp;&nbsp;</span>Filter by Venue<span>&nbsp;&nbsp;<i class="fa fa-angle-down"></i>&nbsp;</span></h6></a>
-				  	<ul class="dropdown-menu text-center toUpper w3-padding w3-dropdown-content w3-white w3-card-4"> 
+				  	<ul class="dropdown-menu text-center toUpper w3-padding w3-dropdown-content w3-white w3-card-4" style="top:93%;"> 
 				  		<li class="dropdown-header w3-col w3-center">Favourite Venues</li>
 	                    <li class="w3-col"><a class="w3-block text-center w3-btn w3-teal w3-text-white w3-card" data-venue="Behrin" href="javascript:;" onclick="document.getElementById('venue').value = this.getAttribute('data-venue');">Behrin</a></li>
 	                    <li class="divider"><hr></li>
@@ -120,9 +120,9 @@
 			<?php $rep = 1; $delay = 0; while ( $rep++ <= 8) { ?>
 			<div class="col-md-3 col-sm-6 w3-margin-top w3-margin-bottom wow slideInUp" data-wow-duration="1s" data-wow-delay="<?php echo($delay+=0.1); ?>s">
 				<div class="w3-card-2">
-					<div class="" style="position: relative;">
-						<img class="img-responsive center-block" src="images/banner_1.jpg">	
-						<div class="img-overlay w3-text-shadow">
+					<div class="w3-block" style="positions: relative; background-image:url('images/banner_1.jpg'); background-size:cover; background-position:top center;">
+						<!-- <img class="img-responsive center-block" src="images/banner_1.jpg">	 -->
+						<div class="img-overlay1 w3-text-shadow">
 							<a href="league-detail.php"><button type="button" class="w3-margin-top w3-btn w3-teal toUpper">League</button></a>
 							<div class="container w3-text-white text-center">
 								<h6 class="w3-bold">Abdul latif jameel league,</h6>
@@ -136,31 +136,34 @@
 									</div>
 								</div>
 							</div>
-							<div class="container-fluid w3-margin-top" style="botton:0px;">
+							<div class="container-fluid w3-margin-top" style="bottons:0px;">
 								<div class="row text-center w3-text-white">
-									<div class="col-xs-3 w3-border w3-border-white w3-round w3-padding-0">
-										<h6 class="w3-small">Feb. 04</h6>
-										<h6 class="w3-small">2017</h6>	
-									</div>
-									<div class="col-xs-6 w3-padding-0">
-										<div class="row">
-											<div class="col-xs-5 w3-padding-0">
-												<img class="img-responsive w3-right" src="images/44291x3.png" style="width:30px; height:auto;">
-											</div>
-											<div class="col-xs-2 w3-padding-0">
-												<h6> Vs </h6>
-											</div>
-											<div class="col-xs-5 w3-padding-0">
-												<img class="img-responsive w3-left" src="images/2000007441x3.png" style="width:30px; height:auto;">	
+									<div class="row-height">
+										<div class="col-xs-3 w3-border w3-border-white w3-round w3-padding-0 col-height">
+											<h6 class="w3-small">Feb. 04</h6>
+											<h6 class="w3-small">2017</h6>	
+										</div>
+										<div class="col-xs-6 w3-padding-0 col-height middle-container">
+											<div class="row middle-y">
+												<div class="col-xs-5 w3-padding-0">
+													<img class="img-responsive w3-right" src="images/44291x3.png" style="width:30px; height:auto;">
+												</div>
+												<div class="col-xs-2 w3-padding-0">
+													<h6> Vs </h6>
+												</div>
+												<div class="col-xs-5 w3-padding-0">
+													<img class="img-responsive w3-left" src="images/2000007441x3.png" style="width:30px; height:auto;">	
+												</div>
 											</div>
 										</div>
-									</div>
-									<div class="col-xs-3 w3-padding-0">
-										<h6 class="w3-small">SAR.220</h6>	
-										<h6 class="w3-small">Onwards</h6>
+										<div class="col-xs-3 w3-padding-0 col-height">
+											<h6 class="w3-small">SAR.220</h6>	
+											<h6 class="w3-small">Onwards</h6>
+										</div>
 									</div>
 								</div>
 							</div>
+							<small><br></small>
 						</div>
 					</div>
 					<div class="container-fluid w3-white w3-padding-0">
@@ -208,8 +211,8 @@
 	        
 	    $("#myNavbar3-child > li ").hover(function() {
 	        $el = $(this);
-	    	if($('.dropdown-menu').filter(':visible').length > 0){ $magicLine.css({'bottom':'-6px'}); return;}
-	    	else { $magicLine.css({'bottom':'-1px'}); }
+	    	// if($('.dropdown-menu').filter(':visible').length > 0){ $magicLine.css({'bottom':'-1px'}); return;}
+	    	// else { $magicLine.css({'bottom':'-1px'}); }
 	        leftPos = $el.position().left;
 	        newWidth = $el.width();
 	        $magicLine.stop().animate({
