@@ -52,12 +52,12 @@
 								</h6>		
 							</div>
 							<div id="aboutEdit" class="w3-block w3-border w3-round tab-pane fade">
-								<textarea id="aboutTxt" name="aboutTxt" class="w3-padding w3-round w3-input justify w3-light-grey" style="min-height:200px; ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has	been the industry's standard dummy text ever since the 1 500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting. remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</textarea>		
+								<textarea id="aboutTxt" name="aboutTxt" class="w3-padding w3-round w3-input justify w3-light-grey" style="min-height:200px; " onchange="enableBtn('#aboutSaveBtn');">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has	been the industry's standard dummy text ever since the 1 500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting. remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</textarea>		
 							</div>
 						</div>
 						<div class="w3-block w3-section text-right">
 							<button type="button" data-toggle="tab" href="#aboutShow" class="w3-btn w3-dark-gray w3-margin-right">Cancel</button>
-							<button type="button" class="w3-btn w3-blue w3-text-white">Save</button>
+							<button id="aboutSaveBtn" type="button" disabled class="w3-btn w3-blue w3-text-white disabled">Save</button>
 						</div>
 					</form>
 				</div>
@@ -148,6 +148,10 @@
 
 	function aboutTxtFocus(elem){
 		setTimeout(function(){ $(elem).focus().select(); }, 300);
+	}
+
+	function enableBtn(elem) {
+		$(elem).removeAttr('disabled').removeClass('disabled');
 	}
 </script>
 
