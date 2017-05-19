@@ -76,7 +76,7 @@
 					<?php $rep = 1; $delay = 0; while ( $rep++ <= 4) { ?>
 					<div class="row w3-white border-2-lg wow slideInUp" data-wow-duration="0.5s" data-wow-delay="<?php echo($delay+=0.05); ?>s">
 						<div class="row-height">
-							<div class="col-xs-2 w3-light-grey right-dshd-brdr text-center col-height">
+							<div class="col-xs-3 col-sm-2 w3-light-grey right-dshd-brdr text-center col-height">
 								<div class="container-fluid w3-padding-0">
 									<h6 class="w3-small">FEB</h6>
 									<h6 class="w3-xxlarge w3-bold">23</h6>
@@ -84,11 +84,11 @@
 									<h6 class="toUpper w3-small">9:30 AM</h6>
 								</div>
 							</div>
-							<div class="col-xs-10 w3-padding-0 middle-container col-height">
-								<div class="container-fluid w3-padding-0 vertical-center1 middle-y">
+							<div class="col-xs-12 col-sm-10 w3-padding-0 middle-container col-height match-card">
+								<div class="container-fluid w3-padding-0 vertical-center1 middle-y match-card w3-padding-top">
 									<div class="row">
 										<div class="col-sm-9 w3-padding-0">
-											<div class="col-md-5 w3-padding-0">
+											<div class="col-sm-5 w3-padding-0">
 												<div class="row text-center">
 													<div class="col-xs-5 w3-padding-0">
 														<img class="img-responsive img-circle w3-card-1 center-block" src="images/44291x3_lg.png" style="width:50px; height:auto;">
@@ -103,7 +103,7 @@
 													</div>
 												</div>
 											</div>
-											<div class="col-md-7 w3-padding-0 text-center">
+											<div class="col-sm-7 w3-padding-0 text-center">
 												<h6class="w3-small w3-bold">Abdul latif jameel league</h6>
 												<h6class="w3-small w3-bold">King Fahad International Stadium</h6>
 											</div>
@@ -210,6 +210,27 @@
     $('#navbar3').on('affixed-top.bs.affix', function(){
        $('#psudo-div').css({height:'0px'});
     });
+
+    // media query event handler
+	  if (matchMedia) {
+	    var mq = window.matchMedia("(min-width: 786px)");
+	    mq.addListener(WidthChange4matchCard);
+	    WidthChange4matchCard(mq);
+	  }
+
+	  // media query change
+	  function WidthChange4matchCard(mq) {
+	    if (mq.matches) {
+	      // window width is at least 786px
+	      $('.match-card.col-height1').addClass('col-height').removeClass('col-height1');
+	      $('.match-card.middle-y1').addClass('middle-y').removeClass('middle-y1');
+	    } else {
+	      // window width is less than 786px
+	      $('.match-card.col-height1').addClass('col-height').removeClass('col-height1');
+	      $('.match-card.middle-y').addClass('middle-y1').removeClass('middle-y');
+	    }
+
+	  }
 
 </script>
 

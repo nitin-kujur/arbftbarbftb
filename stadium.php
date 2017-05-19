@@ -58,7 +58,7 @@
 					<div class="row-height">
 						<div class="col-md-12 w3-border w3-north">
 							<div class="col-xs-3 col-height">
-								<img class="img-responsive center-block svg" style="width:100px;" src="images/seats.svg">
+								<img class="img-responsive center-block svg" style="width:70px;" src="images/seats.svg">
 								<!-- <span class="icon-seats w3-jumbo"></span> -->
 							</div>
 							<div class="col-xs-9 col-height">
@@ -72,7 +72,7 @@
 					<div class="row-height">
 						<div class="col-md-12 w3-border w3-south">
 							<div class="col-xs-3 col-height">
-								<img class="img-responsive center-block svg" style="width:100px;" src="images/seats.svg">
+								<img class="img-responsive center-block svg" style="width:70px;" src="images/seats.svg">
 							</div>
 							<div class="col-xs-9 col-height">
 								<div class="child w3-block">
@@ -85,7 +85,7 @@
 					<div class="row-height">
 						<div class="col-md-12 w3-border w3-west">
 							<div class="col-xs-3 col-height">
-								<img class="img-responsive center-block svg" style="width:100px;" src="images/seats.svg">
+								<img class="img-responsive center-block svg" style="width:70px;" src="images/seats.svg">
 							</div>
 							<div class="col-xs-9 col-height">
 								<div class="child w3-block">
@@ -98,7 +98,7 @@
 					<div class="row-height">
 						<div class="col-md-12 w3-border w3-east">
 							<div class="col-xs-3 col-height">
-								<img class="img-responsive center-block svg" style="width:100px;" src="images/seats.svg">
+								<img class="img-responsive center-block svg" style="width:70px;" src="images/seats.svg">
 							</div>
 							<div class="col-xs-9 col-height">
 								<div class="child w3-block">

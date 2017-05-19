@@ -66,15 +66,21 @@
 
 		</div>
 
+		<button type="button" class="w3-btn w3-tiny w3-border-0 w3-card-2" style="position:fixed; width:150px; bottom:110px; z-index:999999; right:30px; opacity:0.5;" onmouseout="this.style.opacity = '0.5'" onmouseover="this.style.opacity = '1';" onclick="notifyFuncCall();">show notification</button>
 
+		<button type="button" class="w3-btn w3-tiny w3-border-0 w3-card-2" style="position:fixed; width:150px; bottom:70px; z-index:999999; right:30px; opacity:0.5;" onmouseout="this.style.opacity = '0.5'" onmouseover="this.style.opacity = '1';" onclick="freez();">show loader</button>
+
+		<button type="button" class="w3-btn w3-tiny w3-border-0 w3-card-2" style="position:fixed; width:150px; bottom:30px; z-index:999999; right:30px; opacity:0.5;" onmouseout="this.style.opacity = '0.5'" onmouseover="this.style.opacity = '1';" onclick="defreez();">hide loader</button>
 
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.1/js/bootstrap-select.min.js"></script>
+		<script src="js/bootstrap-notify.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-notify.css">
 		<script src="js/owl.carousel.min.js"></script>
 		<script src="js/wow.min.js"></script>
 	  	<script src="js/flowtype.js"></script>
 		<!-- // <script src="js/jquery.stellar.min.js"></script> -->
-		<!-- // <script type="text/javascript" src="js/jquery.blockUI.js"></script> -->
+		<script type="text/javascript" src="js/jquery.blockUI.js"></script>
 		<script type="text/javascript">
 			// media query event handler
 			  if (matchMedia) {
@@ -133,18 +139,6 @@
 
 			  }
 			$(document).ready(function() {
-				// $.blockUI({ 
-		  //           message: '<img src="loader.gif">', 
-		  //           overlayCSS: { backgroundColor: 'white' },
-		  //           css: { 
-		  //               top:  ($(window).height() - 300) /2 + 'px',    
-		  //               left: ($(window).width() - 400) /2 + 'px', 
-		  //               width: '400px',
-		  //               border: 'none',
-		  //           } 
-		  //       }); 
-
-		  //       setTimeout($.unblockUI, 2000);
 
 		  		new WOW().init();
 
@@ -223,6 +217,47 @@
 					case 3: $('#search-box').attr('placeholder', 'Search by Team'); break;
 				}
 				
+			}
+
+			function freez(){
+				$.blockUI({ 
+		            message: '<div class="pre-loader"></div>', 
+		            overlayCSS: { backgroundColor: 'black' },
+		            css: { 
+		                top:  ($(window).height() - 50) /2 + 'px',    
+		                left: ($(window).width() - 50) /2 + 'px', 
+		                width: 'auto',
+		                border: 'none',
+		                baseZ: 999998,
+		                backgroundColor: 'transparent' 
+		            } 
+		        }); 
+
+		        // setTimeout($.unblockUI(), 2000);
+			}
+
+			function defreez(){ $.unblockUI(); }
+
+			function notifyFuncCall(){
+				$.notify({
+					title: 'Email: Erica Fisher',
+					message: 'Investment, stakeholders micro-finance equity health Bloomberg; global citizens climate change. Solve positive social change sanitation, opportunity insurmountable challenges...'
+				},{
+					type: 'pastel-warning',
+					delay: 5000,
+					template: '<div data-notify="container" class="col-xs-11 col-sm-3 alert alert-{0}" role="alert">' +
+						'<span data-notify="title">{1}</span>' +
+						'<span data-notify="message">{2}</span>' +
+					'</div>',
+					placement: {
+						from: 'bottom',
+						align: 'left'
+					},
+					animate: {
+						enter: 'animated fadeInLeft',
+						exit: 'animated fadeOutLeft'
+					}
+				});
 			}
 		</script>
 		
