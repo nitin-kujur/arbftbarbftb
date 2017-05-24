@@ -41,15 +41,16 @@
 								<img src="images/logo2.5.png" class="img-responsive"  alt="p" width="120px" height="40%" style="object-fit: contain; line-height:1.5;">
 							</a>
 							<div class="navbar-header navbar-bg-color">
-							  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+							  <button type="button" class="navbar-toggle w3-border-white w3-small w3-padding-small" style="border-radius:0px; background-color: #4c5164;" data-toggle="collapse" data-target="#myNavbar">
 									<!-- <h6><span class="icon-bar"></span>
 									<span class="icon-bar"></span>
 									<span class="icon-bar"></span></h6> -->
-									<h6 class="w3-margin-0 w3-text-white"><i class="fa fa-bars" style="font-size:15px"></i></h6>
+									<label class="w3-margin-0 w3-text-white"><!-- <i class="fa fa-bars" style="font-size:15px"></i> --> Login </label>
+							  <!-- <button type="button" class="w3-btn w3-border w3-border-white w3-padding-small" data-toggle="collapse" data-target="#myNavbar" style="background-color: #4c5164;"><span>&nbsp;&nbsp;&nbsp;&nbsp;</span>Sign In<span>&nbsp;&nbsp;&nbsp;&nbsp;</span></button> -->
 							  </button>
 							</div>
-							<div class="collapse navbar-collapse w3-padding-0 navbar-bg-color" id="myNavbar">
-								<ul class="nav navbar-nav navbar-right" style="position: relative; top: 15%; transform: translateY(10%);">
+							<div class="collapse navbar-collapse w3-padding-0 navbar-bg-color hide-scrollbars" style="overflow:hidden; max-height:450px !important;" id="myNavbar">
+								<ul class="nav navbar-nav navbar-right" style="">
 								  <li id="li1" class="no-hover"><span class="visible-sm visible-xs">&nbsp;&nbsp;</span><input id="user" type="text" class="w3-input w3-light-grey w3-padding-small block-center w3-padding-left w3-padding-right" placeholder="User Name or Email Id" name="firstName" style1="max-width:300px;"><span class="visible-sm visible-xs">&nbsp;&nbsp;</span></li>
 								  <li class="hidden-sm hidden-xs no-hover">&nbsp;&nbsp;&nbsp;&nbsp;</li>
 						   		  <li id="li2" class="no-hover"><span class="visible-sm visible-xs">&nbsp;&nbsp;</span><input id="pass" type="password" class="w3-input w3-light-grey w3-padding-small block-center w3-padding-left w3-padding-right" placeholder="Password" name="password" style1="max-width:300px;"><span class="visible-sm visible-xs">&nbsp;&nbsp;</span></li>
@@ -102,5 +103,15 @@
 			</div>
 			<br><br><span class="hidden-sm hidden-xs"><br><br><br></span>
 		</div>
+
+		<style type="text/css">
+			@media only screen and (min-width: 787px){
+				#myNavbar .nav{
+					position: relative; 
+					top: 15%; 
+					transform: translateY(10%);
+				}
+			}
+		</style>
 
 		<?php include('partner-footer.php'); ?>

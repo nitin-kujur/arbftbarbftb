@@ -46,7 +46,7 @@
 						  </button>
 						</div>
 						<div id="navbar-container1">
-							<div class="collapse navbar-collapse w3-padding-0 navbar-bg-color" id="myNavbar">
+							<div class="collapse navbar-collapse w3-padding-0 navbar-bg-color" style="overflow:hidden; max-height:400px !important;" id="myNavbar">
 								<ul class="nav navbar-nav toUpper">
 								  <li id="li1" class="w3-dark-grey text-center"><a class="w3-transparent" href="index.php"><h6 class="text-center w3-text-white hidden-sm hidden-xs"><i class="fa fa-home" style="height: 20px;"></i></h6><span class="visible-sm visible-xs">&nbsp;<i class="fa fa-home" style="height: 20px;"></i>&nbsp;</span></a></li>
 						   		  <li id="li2" class="text-center"><a class="w3-transparent" href="about.php"><span class="w3-text-green">Sports</span></a></li>

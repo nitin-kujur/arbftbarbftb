@@ -50,8 +50,8 @@
 									<h6 class="w3-margin-0 w3-text-white"><i class="fa fa-bars" style="font-size:15px"></i></h6>
 							  </button>
 							</div>
-							<div class="collapse navbar-collapse w3-padding-0 navbar-bg-color" id="myNavbar">
-								<ul class="nav navbar-nav navbar-right" style="position: relative; top: 15%; transform: translateY(10%);">
+							<div class="collapse navbar-collapse w3-padding-0 navbar-bg-color hide-scrollbars" style="overflow:hidden; max-height:400px !important;" id="myNavbar">
+								<ul class="nav navbar-nav navbar-right" style="">
 								  <li id="link1" class="no-hover"><a class="w3-padding-0 w3-hover-text-grey w3-padding-left w3-padding-right" href="about-club.php">About Club</a></li>
 								  <li class="hidden-sm hidden-xs no-hover" style="width:50px;">&nbsp;</li>
 						   		  <li id="link2" class="no-hover"><a class="w3-padding-0 w3-hover-text-grey w3-padding-left w3-padding-right" href="history.php">History</a></li>
@@ -70,3 +70,13 @@
 				</div>
 			</div>
 		<!-- -----------Nav-Bar------------ -->
+
+		<style type="text/css">
+			@media only screen and (min-width: 787px){
+				#myNavbar .nav{
+					position: relative; 
+					top: 15%; 
+					transform: translateY(10%);
+				}
+			}
+		</style>

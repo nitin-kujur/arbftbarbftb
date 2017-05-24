@@ -156,3 +156,16 @@ div.right-round:after {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
   }
+
+.hide-scrollbars ::-webkit-scrollbar {
+  display: none !important;
+  width: 0px !important;
+  height: 0 !important; }
+
+.hide-scrollbars ::-webkit-scrollbar-thumb {
+  background-color: transparent; }
+
+.overflow-container {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar; }
